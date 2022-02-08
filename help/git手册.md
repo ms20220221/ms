@@ -59,3 +59,8 @@
 
 ## 只拉取，不上传
 前三步一样，最后一步换成：在命令行输入`git pull origin main`。这次的commit信息可以写“本地同步”
+
+## 其他
+* 舍弃本地更改，强行pull
+>git fetch all
+>git reset --hard origin/main
