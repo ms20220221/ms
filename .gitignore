@@ -1,1 +1,10 @@
-b.pdf
+BCHAIN-MKPRU_备份.csv
+LBMA-GOLD_备份.csv
+latex\*.log
+latex\*.aux
+latex\*.out
+latex\*.pdf
+latex\*.gz
+latex\*.synctex.gz
+latex\*.cls
+latex\*.dtx
