@@ -1,0 +1,14 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces 一张好图\relax }}{1}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces 一张极好图\relax }}{1}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces 一张奇好图\relax }}{1}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces 两张好图：\subref {Fig:P1}第一张，\subref {Fig:P2}第二张\relax }}{2}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{2}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{2}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces 两张好图\relax }}{2}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {子题注1}}}{2}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {子题注2}}}{2}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces 又两张好图\relax }}{3}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {子题注1如果一些子图的题注很长，我们就需要使用子页配合排版}}}{3}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {子题注2基本上好的主流的国外期刊都会具体要求使用该包}}}{3}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces 一张好图含双题注\relax }}{3}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces A good figure with two caption\relax }}{3}{}%
