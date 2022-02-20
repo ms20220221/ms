@@ -89,19 +89,74 @@ for today in range(1,len(data)):
             gold_assest=gold_share_perfect*total_asset-gold_crate*gold_share_perfect*total_asset
             bit_assest=bit_share_perfect*total_asset-bit_crate*bit_share_perfect*total_asset
             total_asset=gold_assest+bit_assest
-            
-            temp=[0,gold_assest/total_asset,bit_assest/total_asset,total_asset]
+            gold_share_current=gold_assest/total_asset
+            bit_share_current=bit_assest/total_asset
+            temp=[0,gold_share_current,bit_share_current,total_asset]
             status.append(temp)
-        
-        print("day"+str(today)+",buy gold:"+str(gold_assest)+",buy bit:"+str(bit_assest))
+            print("day"+str(today)+",buy gold:"+str(gold_assest)+",buy bit:"+str(bit_assest))
 
         if cash_share_current>0 and gold_share_current>0 and bit_share_current==0: #有现金、黄金，没比特币，现金全买比特币
-            commision=bit_crate*cash_share_current*total_asset
             gold_assest=gold_share_current*total_asset
             bit_assest=cash_share_current*total_asset-bit_crate*cash_share_current*total_asset
-            
+            total_asset=gold_assest+bit_assest
+            gold_share_current=gold_assest/total_asset
+            bit_share_current=bit_assest/total_asset
+            temp=[0,gold_share_current,bit_share_current,total_asset]
+            status.append(temp)
+            print("day"+str(today)+",buy gold:"+str(0)+",buy bit:"+str(bit_assest))
+        
+        elif cash_share_current>0 and bit_share_current>0 and gold_share_current==0: #有现金、比特币，没比黄金，现金全买黄金
+            bit_assest=bit_share_current*total_asset
+            gold_assest=cash_share_current*total_asset-gold_crate*cash_share_current*total_asset
+            total_asset=gold_assest+bit_assest
+            gold_share_current=gold_assest/total_asset
+            bit_share_current=bit_assest/total_asset
+            temp=[0,gold_share_current,bit_share_current,total_asset]
+            status.append(temp)
+            print("day"+str(today)+",buy gold:"+str(gold_assest)+",buy bit:"+str(0))
+        
+        elif cash_share_current==0:# 没现金，啥也不买。。。。。。。。。。。。。可以调仓买，再改
+            temp=[cash_share_current,gold_share_current,bit_share_current,total_asset]
+            status.append(temp)
 
+    # 一买一不变:
+    if gold_wanna_buy==True and bit_wanna_buy==False and bit_wanna_sell==False:#黄金要买，比特币不变，
+        if cash_share_current>0:#有现金，现金全买黄金
+            bit_assest=bit_share_current*total_asset
+            gold_assest=cash_share_current*total_asset-gold_crate*cash_share_current*total_asset
+            total_asset=gold_assest+bit_assest
+            gold_share_current=gold_assest/total_asset
+            bit_share_current=bit_assest/total_asset
+            temp=[0,gold_share_current,bit_share_current,total_asset]
+            status.append(temp)
+            print("day"+str(today)+",buy gold:"+str(gold_assest))
+        elif cash_share_current==0:#没现金，另一个不能动，因此啥也不干
+            temp=[cash_share_current,gold_share_current,bit_share_current,total_asset]
+            status.append(temp)
     
+    if bit_wanna_buy==True and gold_wanna_buy==False and gold_wanna_sell==False:#比特币要买，黄金不变，
+        if cash_share_current>0:#有现金，现金全买比特币
+            gold_assest=gold_share_current*total_asset
+            bit_assest=cash_share_current*total_asset-bit_crate*cash_share_current*total_asset
+            total_asset=gold_assest+bit_assest
+            gold_share_current=gold_assest/total_asset
+            bit_share_current=bit_assest/total_asset
+            temp=[0,gold_share_current,bit_share_current,total_asset]
+            status.append(temp)
+            print("day"+str(today)+",buy bit:"+str(bit_assest))
+        elif cash_share_current==0:#没现金，另一个不能动，因此啥也不干
+            temp=[cash_share_current,gold_share_current,bit_share_current,total_asset]
+            status.append(temp)
+    
+    #一买一卖
+    if gold_wanna_buy==True and bit_wanna_sell==True: #要买黄金，卖比特币
+        # 这样一来黄金的比例肯定是1，其他两个0，只要算一下佣金，更新总资产即可
+        total_asset-=gold_crate*cash_share_current*total_asset+(gold_crate+bit_crate)*bit_share_current*total_asset
+        temp=[0,1,0,total_asset]
+    
+    if bit_wanna_buy==True and gold_wanna_sell==True: #要买黄金，卖比特币
+        # 这样一来黄金的比例肯定是1，其他两个0，只要算一下佣金，更新总资产即可
+        total_asset-=gold_crate*cash_share_current*total_asset+(gold_crate+bit_crate)*bit_share_current*total_asset
+        temp=[0,1,0,total_asset]
 
-    
 
