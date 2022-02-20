@@ -1,0 +1,36 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Problem Analysis}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Assumption}{5}{section.2}%
+\contentsline {section}{\numberline {3}Data Processing}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data Screening}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Data Visualization}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Mining Time Series}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}PartⅠ：Model Development }{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Time Series Model ARIMA - Data Forecasting }{5}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Stability Test}{5}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}White Noise Test}{5}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Train the Model With All the Data}{5}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Model Validating}{5}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Model Prediction and Visualization}{5}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Batch prediction of data }{5}{subsubsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.2}Investment Decision Model - Dynamic Programming }{5}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Buy and Sell Standard Setting}{5}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Portfolio Optimal Ratio Identification}{5}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Positioning Standard Identification}{5}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Daily Portfolio Determinations}{5}{subsubsection.4.2.4}%
+\contentsline {section}{\numberline {5}PartⅡ:Strategy Evaluation}{5}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Set Perturbation Terms }{5}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Comparison Illustrates the Best Strategy}{5}{subsection.5.2}%
+\contentsline {section}{\numberline {6}PartⅢ:Sensitivity Analysis}{5}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Assuming Changes In Commission}{5}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Visualization Results}{5}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Evaluate of the Model}{5}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Strengths and weaknesses}{5}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Sensitivity Analysis}{5}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Conclusions}{5}{section.8}%
+\contentsline {section}{\numberline {9}A Memo}{5}{section.9}%
+\contentsline {section}{Appendices}{6}{section*.2}%
+\contentsline {section}{Appendix \numberline {A}First appendix}{6}{appendix.a.A}%
+\contentsline {section}{Appendix \numberline {B}Second appendix}{7}{appendix.a.B}%

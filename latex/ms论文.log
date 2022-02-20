@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 00:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 01:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,11 +789,37 @@ File: ./figures//mcmthesis-logo.pdf Graphic file (type pdf)
 <use ./figures//mcmthesis-logo.pdf>
  [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 50.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 50.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 50.
+ (d:/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 50.
+ (./ms论文.toc
+Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
+Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
+Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
+ [1])
+\tf@toc=\write5
+\openout5 = `ms论文.toc'.
+
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 51.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 49.
+(Font)              scaled to size 14.4pt on input line 56.
 Missing character: There is no 随 ("968F) in font ntx-Regular-tlf-t1!
 Missing character: There is no 着 ("7740) in font ntx-Regular-tlf-t1!
 Missing character: There is no 个 ("4E2A) in font ntx-Regular-tlf-t1!
@@ -1029,54 +1055,15 @@ Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
 Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
 Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
 Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
 Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
 Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 176.
- (d:/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
-File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 176.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[1]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 190.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 233.
  (d:/texlive/2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 190.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 205.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 207.
- (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
-File: t1ntxtt.fd 2012/04/20 v3.1
-)
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 207.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 210.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 210.
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
-
- []
+(Font)              scaled to size 12.0pt on input line 233.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1086,16 +1073,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 230.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 230.
- (d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
- (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
-File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1103,7 +1080,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4]) 
+[4]
+Overfull \vbox (129.3199pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 248.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 250.
+ (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 250.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 253.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 253.
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 277.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 277.
+(d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (./code/mcmthesis-matlab1.m)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6] (./code/mcmthesis-sudoku.cpp
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
+ (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1112,23 +1135,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5] (./ms论文.aux)
+[7] (./ms论文.aux)
 
 Package rerunfilecheck Warning: File `ms论文.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ms论文.out':
-(rerunfilecheck)             Before: 30BFDBF165440B364F926B0F06B19F5E;3114
-(rerunfilecheck)             After:  A8A99D6F83F3F37E61FABF3C09E17DC9;3255.
+(rerunfilecheck)             Before: 5C1FBB3348108A3D7B48FDC596F8FC29;6578
+(rerunfilecheck)             After:  AB00D5BC5AEB8CB94345B27A6A3463E3;6347.
  ) 
 Here is how much of TeX's memory you used:
- 15247 strings out of 476919
- 220371 string characters out of 5825425
- 938882 words of memory out of 5000000
- 34870 multiletter control sequences out of 15000+600000
- 465697 words of font info for 121 fonts, out of 8000000 for 9000
+ 15258 strings out of 476919
+ 220483 string characters out of 5825425
+ 840157 words of memory out of 5000000
+ 34877 multiletter control sequences out of 15000+600000
+ 468622 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,12n,99p,383b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,11n,99p,383b,1789s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ms论文.pdf (7 pages).
+Output written on ms论文.pdf (9 pages).
