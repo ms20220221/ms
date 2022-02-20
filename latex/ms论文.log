@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 00:23
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 00:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,8 +671,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (d:/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip85
 \subfig@bottom=\skip86
-)
-No file ms论文.aux.
+) (./ms论文.aux)
 \openout1 = `ms论文.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -685,7 +684,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 14.
-(d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+ (d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 14.
@@ -751,12 +750,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
+ (./ms论文.out) (./ms论文.out)
 \@outlinefile=\write4
 \openout4 = `ms论文.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@mv@tabular=\count320
 \c@mv@boldtabular=\count321
@@ -767,7 +763,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 32.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
-(d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
@@ -1032,21 +1028,15 @@ Missing character: There is no 策 ("7B56) in font ntx-Regular-tlf-t1!
 Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
 Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
 Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 136.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 136.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 155.
+Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
+Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
+Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 176.
  (d:/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 155.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 155.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 155.
+(Font)              scaled to size 9.85492pt on input line 176.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1056,15 +1046,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [1]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 172.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 190.
  (d:/texlive/2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 172.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 177.
+(Font)              scaled to size 12.0pt on input line 190.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1074,19 +1061,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 189.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 205.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 207.
  (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 189.
+(Font)              scaled to size 12.0pt on input line 207.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 192.
+(Font)              scaled to size 24.88pt on input line 210.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 192.
+(Font)              scaled to size 24.88pt on input line 210.
 
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 201.
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1096,19 +1086,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 212.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 212.
-(d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+(Font)              scaled to size 10.0pt on input line 230.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 230.
+ (d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 25.
-
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
+ (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1116,19 +1103,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4]
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
- (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
-File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-))
-
-Package lastpage Warning: Rerun to get the references right on input line 220.
-
-
+[4]) 
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 220.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1138,27 +1114,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5] (./ms论文.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package rerunfilecheck Warning: File `ms论文.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ms论文.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  312D22C739D78970D32D8C1B3A873840;2727.
+(rerunfilecheck)             Before: 30BFDBF165440B364F926B0F06B19F5E;3114
+(rerunfilecheck)             After:  A8A99D6F83F3F37E61FABF3C09E17DC9;3255.
  ) 
 Here is how much of TeX's memory you used:
- 15251 strings out of 476919
- 220422 string characters out of 5825425
- 931454 words of memory out of 5000000
- 34874 multiletter control sequences out of 15000+600000
- 473132 words of font info for 131 fonts, out of 8000000 for 9000
+ 15247 strings out of 476919
+ 220371 string characters out of 5825425
+ 938882 words of memory out of 5000000
+ 34870 multiletter control sequences out of 15000+600000
+ 465697 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,13n,99p,383b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,12n,99p,383b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on ms论文.pdf (7 pages).
