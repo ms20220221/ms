@@ -36,5 +36,8 @@ a=pd.read_csv('code\\ljh\\1.csv')
 for x in range(0,1825):
     if a.iloc[[x],[1]].values==0:
         # a=a.set_values(x,1,a.iloc[[x-1],[1]].values)
-        a.iat[x,1]=a.iloc[[x-1],[1]].values
+        not_zero=x+1
+        while(a.iloc[[not_zero],[1]].values==0):
+            not_zero+=1
+        a.iat[x,1]=a.iloc[[not_zero],[1]].values
 a.to_csv('code\\ljh\\黄金填充后_备份.csv',index=None)
