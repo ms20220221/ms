@@ -7,14 +7,48 @@
 \usepackage{newtxtext}%\usepackage{palatino}
 \usepackage{lipsum}
 \usepackage{subfigure}
-\title{A Short-Term Arbitrage Model of Two Risk Portfolio}
-\author{\small \href{https://www.latexstudio.net/}
-  {\includegraphics[width=7cm]{mcmthesis-logo}}}
+\title{交易策略：时间序列模型与投资决策标准}
+\author{\small Huiteng Rong and Yuning Xiao and Jianhui Liu}
+  }
 \date{\today}
 \begin{document}
 \begin{abstract}
 % 摘要
+Based on the historical price data of gold and bitcoin, this paper uses the time series model to 
+predict the future price, formulate the investment decision-making standard and provide the daily trading strategy.
 
+Aiming at problem 1, the time series model Arima is applied to predict the data.
+We calculate the difference of raw data,depending on which to 
+ conduct the stationarity test and white noise test on the original data and difference data.
+ Only the data that passed the test will be used for model training and parameter determination.
+ It being sophisticated to redefine parameters erverday,we adopt the automated ARIMA model to obtain the best parameters 
+ and start batch model training and model prediction to determine the price data in the next 7 days.After
+ linear regression,the expected rate of return for the next seven days can be figurede out.With expected rate of return and 
+ Mean-Variance Model,we set up the Buying standard ,selling standard and repositioning standard.Use this model,the total
+ asset value is about 18000\$.
+
+ For problem 2, in order to illustrate that the strategy is the best strategy,
+  we introduce a disturbance to display the stability of the model through the change of the final assets. 
+  The results show that the model is stable under a certain range of disturbances.
+  
+  In response to question 3, we adjust the transaction commission ratio to obtain various
+  the final asset data under different commission ratios,and visualize the changes of assests to 
+  intuitively show the sensitivity of the strategy to the transaction cost.
+本文根据黄金与比特币历史价格数据，利用时间序列模型进行未来价格预测，并据此制定投资决策标准提供每日交易策略。
+针对问题一，利用时间序列模型ARIMA来预测数据。为了更好进行时间序列建模，
+我们将原始数据进行差分得到差分数据，对原始数据与差分数据进行平稳性检验、白噪声检验，
+使用检验通过的数据进行模型训练与定阶。
+由于每一天的模型都需要重新定阶，我们采用自动化ARIMA模型获取最佳参数，
+进行批量化模型训练与模型预测得到未来7天价格数据。
+观察到预测数据的线性关系后，采用线性回归得到未来7天价格变化趋势，并以此计算预期收益率。此后，我们借助
+马科维茨均值方差模型的基础上，制定买入标准、卖出标准与调仓标准，并以此确定每日交易策略，最终资产在18000\$左右。
+针对问题二，为说明策略是最佳策略，我们引入一个扰动，通过最终资产的变化情况来说明模型的稳定性，
+结果表明模型在一定范围的扰动下稳定性良好。
+针对问题三，我们采用调整交易佣金比例得到不同佣金比例下的最终资产数据，
+并进行可视化处理，通过最终资产的变化程度来衡量策略对交易成本的敏感程度。
+通过进一步对买入标准、卖出标准与调仓标准分析，说明交易成本如何影响策略与结果。
+本文在制定投资标准时引入风险偏好指标，旨在分析不同风险偏好人群投资策略与结果的差异，
+提高模型普适性。本文还总结了模型的优缺点，并以MEMO的形式将我们的策略、模型以及结果传达给了我们尊敬的交易者。
 
 \begin{keywords}
 % 关键词
