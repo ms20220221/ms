@@ -268,50 +268,84 @@ and fitted slope quantifies the trend to make the better investment decisions.
 
 
 
+The reason for the large overlap of lines in Figure 6 is that the data sample is too large.
+So we choose 100 of these samples and make graph7.
+
+\subsubsection{Batch prediction of data}   %去未来七天
+Based on the price data as of the day,we predicted gold and bitcoin price for the next 7 days 
+and the same automated arima modeling is performed using the auto.arima function to obtain the price data for the next 7 days.
+By analyzing the forecast data, we observed a roughly linear variation. 
+Then,we integrated these data using linear regression to clarity the future price trend 
+and fitted slope quantifies the trend to make the better investment decisions.
+
+
+
 \subsection{Trading Strategy Model - Dynamic Programming }
-符号说明：
-$w_G$:持有黄金的比例
-$w_B$:持有比特币的比例
-$r_G$:黄金预期收益率
-$r_B$:比特币预期收益率
-$\alpha _G$:交易黄金时的佣金比例
-$\alpha _B$:交易比特币时的佣金比例
-$\sigma _G$:黄金的历史收益率的下半方差
-$\sigma _B$:比特币的历史收益率的下半方差
-$\beta $:交易者的风险厌恶系数
-$T$:每次购买资产后持有的平均天数
+符号说明：\textbf{Notation:}
+$w_G$:持有黄金的比例Gold holding ratio
+$w_B$:持有比特币的比例Bitcoin holding ratio
+$r_G$:黄金预期收益率Gold expected return
+$r_B$:比特币预期收益率Bitcoin expected return
+$\alpha _G$:交易黄金时的佣金比例Commission ratio of gold transaction
+$\alpha _B$:交易比特币时的佣金比例commission ratio of bitcoin transaction
+$\sigma _G$:黄金的历史收益率的下半方差Gold lower semi-variance of historical yield
+$\sigma _B$:比特币的历史收益率的下半方差Bitcoin lower semi-variance of historical yield
+$\beta $:交易者的风险厌恶系数Risk aversion coefficient of trader
+$T$:每次购买资产后持有的平均天数The average number of days held after each purchase of assets
 
 %流程图
 
 
-\subsubsection{资产的预期收益情况}
-当购买和卖出资产时需要支付一定比例的佣金，换句话说，每天持有资产是有成本的，可以用$\alpha \div T$表示。
+\subsubsection{Expected return on assets}
+Traders pay a percentage of commission when they buy and sell assets, in other words, there is hidden cost to holding assets every day.
+We use$\alpha \div T$ to represent such costs.
+当购买和卖出资产时需要支付一定比例的佣金，换句话说，每天持有资产是有成本的，可以用%$\alpha \div T$表示。
+
+We determine trading behavior by comparing the expected benefit with the size of that cost.
+When expected revenue is large enough to offset this cost,model decide to buy;
+When the expected return is less than the negative cost, it represents maintaining;
+When the asset is about to lose more than commission cost,model needs to sold Holding share immediately to stop loss.
 当预期收益大到足以抵消这个成本时，就可以考虑买入。当预期收益小于负的成本时，代表持有
 该资产的亏损额即将超过成本，需要立刻抛出止损。
 
-如果$r>(1+\beta )\alpha \div T$，代表该资产近期会涨，可以买入。
+If如果$r>(1+\beta )\alpha \div T$，代表该资产近期会涨，可以买入。it means that the asset will appreciation in the future,so trader can be buy in.
 
-如果$r<-(1-\beta )\alpha \div T$，代表该资产近期会跌，必须卖出。
+If如果$r<-(1-\beta )\alpha \div T$，代表该资产近期会跌，必须卖出。it represents that the asset will depreciation in upcoming period,so trader must sell them out .
 
-如果$-(1-\beta )\alpha \div T<r<(1+\beta )\alpha \div T$,代表资产近期价格稳定，不需要买也不需要卖。
+If如果$-(1-\beta )\alpha \div T<r<(1+\beta )\alpha \div T$,代表资产近期价格稳定，不需要买也不需要卖。it indicates that recent prices are stable,trader can either buy or sell.
 
 
-moreover,由于投资者、投资产品的不同，投资方对于风险有不同的厌恶程度，因此我们引入了$\beta $来刻画风险厌恶程度。
-$\beta $越大，表示投资者越保守，买入的限制更严格，卖出的限制更宽松。反之，表示投资者越激进，他有更宽松的买入标准
-和更严格的卖出标准。
+moreover,由于投资者、投资产品的不同，due to the difference in investors and investment products,
+投资方对于风险有不同的厌恶程度，因此我们引入了来刻画风险厌恶程度。We introduce$\beta $ to characterize the diffrent degree of risk aversion.
 
+%$\beta $越大，表示投资者越保守，买入的限制更严格，卖出的限制更宽松。
+反之，表示投资者越激进，他有更宽松的买入标准和更严格的卖出标准。
+The larger the $\beta $,refers to the more conservative the investors is,stricter restrictions on buying and more lenient restrictions on selling.
+On the contrary,thr smaller $\beta $ indicates that the more aggressive the investor is, who has more lenient buying criteria and more stringent selling criteria.
+
+
+Additionally,we have to consider the following two situations when purchasing:
 此外,在购买时我们不得不考虑下面两种情况：
 \begin{enumerate}
-  \item 如果黄金和比特币中只有一种达到了上涨条件，那么我们只需要把当前的可用资金全部买入该资产即可。
+  \item 如果黄金和比特币中只有一种达到了上涨条件，那么我们只需要把当前的可用资金全部买入该资产即可。If only one of gold and bitcoin meets the upside condition, then we simply buy all of our currently available funds into that asset.
   \item 而如果黄金和比特币同时上涨，就需要考虑如何分配可用资金。在这种情况下，我们采用夏普比率衡量不同比例投资组
-  合的好坏程度。
+  合的好坏程度。Whereas if gold and bitcoin rise at the same time,there is a need to consider how to allocate the available funds. 
+  In this case, we use the Sharpe ratio to measure the different proportional investment groups
+
   $$ Sharpe \; Ratio=\frac{w_G\times r_G+w_B\times r_B}{\sqrt{w_G^2 \sigma _G^2 + w_B^2 \sigma _B^2+2Cov_{w_B w_G}}}$$
   我们用下半标准差作为衡量风险的量化指标，作为标准差中代表小于均值的波动的部分，它更能体现资产亏损的风险。
-  用预期收益率除下半标准差得到夏普比率，它意味着当前投资组合每一单位风险所对应的收益大小。当夏普比率最大时，无疑
-  意味着当前比例的投资组合是最优的。
+We use the lower semi-variance as a quantitative index of risk, as the portion of the standard deviation that represents fluctuations less than the mean.
+which is more indicative of the risk of asset losses.
+  用预期收益率除下半标准差得到夏普比率，它意味着当前投资组合每一单位风险所对应的收益大小。
+We divide the expected return by the following half standard deviation yields the Sharpe ratio,which implies the magnitude of the return per unit of risk of the current portfolio.
+  当夏普比率最大时，无疑意味着当前比例的投资组合是最优的。
+When the Sharpe ratio is maximum, it undoubtedly means that the current proportion of the portfolio is optimal
 
-  根据“每次购买时消耗所有现金”和“黄金和比特币的价格波动相互独立”这两个假设，求解最优的投资比例可以简化为如下的一
-  个优化问题，我们可以利用计算机求出它的数值解。
+  根据“每次购买时消耗所有现金”和“黄金和比特币的价格波动相互独立”这两个假设，求解最优的投资比例可以简化为如下的一个优化问题，我们可以利用计算机求出它的数值解。
+Based on the assumptions that "All cash is consumed at each purchase" and "The price fluctuations of gold and bitcoin are independent of each other", 
+We simplify the problem of solving the optimal investment ratio as an optimization problem.
+And we can use the computer to find its numerical solution.
+
 \begin{align*}
   max \qquad & \frac{w_G\times r_G+w_B\times r_B}{\sqrt{w_G^2 \sigma _G^2 + w_B^2 \sigma _B^2}\\
   s.t. \quad & w_G+w_B=1\\
