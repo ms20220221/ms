@@ -14,25 +14,27 @@
 \contentsline {subsubsection}{\numberline {4.1.1}Model Theory}{6}{subsubsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}Determining the parameters p, q }{6}{subsubsection.4.1.2}%
 \contentsline {subsubsection}{\numberline {4.1.3}R Language Determines the Optimal Parameters p, d, q}{7}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Model Validating}{9}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.4}White noise test for model residuals}{7}{subsubsection.4.1.4}%
 \contentsline {subsubsection}{\numberline {4.1.5}Model Prediction and Visualization}{9}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Batch prediction of data }{9}{subsubsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.2}Investment Decision Model - Dynamic Programming }{9}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Buy and Sell Standard Setting}{9}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Portfolio Optimal Ratio Identification}{9}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Positioning Standard Identification}{9}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}Daily Portfolio Determinations}{9}{subsubsection.4.2.4}%
-\contentsline {section}{\numberline {5}PartⅡ:Strategy Evaluation}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Set Perturbation Terms }{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Comparison Illustrates the Best Strategy}{9}{subsection.5.2}%
-\contentsline {section}{\numberline {6}PartⅢ:Sensitivity Analysis}{9}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Assuming Changes In Commission}{9}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Visualization Results}{9}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Evaluate of the Model}{9}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Strengths and weaknesses}{9}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Sensitivity Analysis}{9}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Conclusions}{9}{section.8}%
-\contentsline {section}{\numberline {9}A Memo}{9}{section.9}%
-\contentsline {section}{Appendices}{10}{section*.2}%
-\contentsline {section}{Appendix \numberline {A}First appendix}{10}{appendix.a.A}%
-\contentsline {section}{Appendix \numberline {B}Second appendix}{10}{appendix.a.B}%
+\contentsline {subsubsection}{\numberline {4.1.6}Batch prediction of data}{9}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}Batch prediction of data}{9}{subsubsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.2}Trading Strategy Model - Dynamic Programming }{9}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Expected return on assets}{9}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}当前的资产持有情况}{10}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}最终交易行为的确定}{11}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}其他说明}{11}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}运行结果}{11}{subsubsection.4.2.5}%
+\contentsline {section}{\numberline {5}PartⅡ:Strategy Evaluation}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Set Perturbation Terms }{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Comparison Illustrates the Best Strategy}{12}{subsection.5.2}%
+\contentsline {section}{\numberline {6}PartⅢ:Sensitivity Analysis}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Assuming Changes In Commission}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Visualization Results}{12}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Evaluate of the Model}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Strengths and weaknesses}{12}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Sensitivity Analysis}{12}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Conclusions}{12}{section.8}%
+\contentsline {section}{\numberline {9}A Memo}{12}{section.9}%
+\contentsline {section}{Appendices}{12}{section*.2}%
+\contentsline {section}{Appendix \numberline {A}First appendix}{12}{appendix.a.A}%
+\contentsline {section}{Appendix \numberline {B}Second appendix}{13}{appendix.a.B}%

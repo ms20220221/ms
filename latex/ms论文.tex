@@ -109,12 +109,12 @@ we visualize the given data and draw figure\ref{fig1}and\ref{fig2}
   %\small
   \centering
   \subfigure[1]{
-  \includegraphics[width=0.9\columnwidth]{D:/meisai/ms/fig/gold.eps}}
+  \includegraphics[width=0.9\columnwidth]{gold.eps}}
   \caption{Gold price tendency} \label{fig1}
   %\hfill
   \centering
   \subfigure[2]{
-    \includegraphics[width=0.9\columnwidth]{D:/meisai/ms/fig/Bitcoin.eps}}
+    \includegraphics[width=0.9\columnwidth]{Bitcoin.eps}}
   \caption{Bitcoin price tendency} \label{fig2}
   \end{figure}
 
@@ -129,8 +129,8 @@ First,we test the stability of the original data by comparing two methods, the i
 
 \begin{figure}[!hb]
   \centering 
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3G.eps}
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3b.eps}
+  \includegraphics[height=2.75in]{fig3G.eps}
+  \includegraphics[height=2.75in]{fig3b.eps}
   \caption{Raw data visualization} \label{fig3}
 \end{figure}
 
@@ -142,8 +142,8 @@ Secondly,the first-order difference data is obtained according to the first-orde
 and the two methods abrove are also used to test.The result is as follows.\ref{fig4}
 \begin{figure}[!hb]
   \centering 
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd1.eps}
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/bd1.eps}
+  \includegraphics[height=2.75in]{gd1.eps}
+  \includegraphics[height=2.75in]{bd1.eps}
   \caption{first order difference data} \label{fig4}
 \end{figure}
 
@@ -154,8 +154,8 @@ Thirdly,utilizing second order difference we obtained second order difference da
 The result is shown in\ref{fig5}.
 \begin{figure}[!h]
   \centering 
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd2.eps}
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/bd2.eps}
+  \includegraphics[height=2.75in]{gd2.eps}
+  \includegraphics[height=2.75in]{bd2.eps}
   \caption{second order difference data} \label{fig5}
 \end{figure}
 
@@ -190,9 +190,9 @@ We take advantage of the autocorrelation and partial autocorrelation plots to fi
 The following figures show the the format of autocorrelation and partial autocorrelation plots.
 \begin{figure}[!h]
   \centering 
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/g6.eps}
+  \includegraphics[height=2.75in]{g6.eps}
   \caption{Autocorrelation diagram}
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/b6.eps}
+  \includegraphics[height=2.75in]{b6.eps}
   \caption{Partial autocorrelation diagram} \label{fig6}
 \end{figure}
 
@@ -206,26 +206,26 @@ Therefore,we use the same methods in the subsequent section.The analysis charts 
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[height=2.5in]{D:/meisai/ms/fig/g61.eps}
+  \includegraphics[height=2.5in]{g61.eps}
   \caption{First order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.5in]{D:/meisai/ms/fig/b61.eps}
+  \includegraphics[height=2.5in]{b61.eps}
 \end{figure}
 \begin{figure}[htbp]
   \caption{First order differential partial autocorrelation diagram-bitcoin} 
-  \includegraphics[width=3cm]{D:/meisai/ms/fig/g661.eps}
+  \includegraphics[width=3cm]{g661.eps}
   \caption{First order differential autocorrelation diagram-gold}
-  \includegraphics[width=3cm]{D:/meisai/ms/fig/b661.eps}
+  \includegraphics[width=3cm]{b661.eps}
   \caption{First order differential partial autocorrelation diagram-bitcoin} 
 \end{figure}
 
 \begin{figure}[!h]
-  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g62.eps}
+  \includegraphics[height=2.4in]{g62.eps}
   \caption{Second order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b62.eps}
+  \includegraphics[height=2.4in]{b62.eps}
   \caption{Second order differential partial autocorrelation diagram-bitcoin} 
-  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g661.eps}
+  \includegraphics[height=2.4in]{g661.eps}
   \caption{Second order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b661.eps}
+  \includegraphics[height=2.4in]{b661.eps}
   \caption{Second order differential partial autocorrelation diagram-bitcoin} 
   \label{fig661}
 \end{figure}
@@ -346,11 +346,12 @@ Based on the assumptions that "All cash is consumed at each purchase" and "The p
 We simplify the problem of solving the optimal investment ratio as an optimization problem.
 And we can use the computer to find its numerical solution.
 
-\begin{align*}
-  max \qquad & \frac{w_G\times r_G+w_B\times r_B}{\sqrt{w_G^2 \sigma _G^2 + w_B^2 \sigma _B^2}\\
+  \begin{align*}
+  max \qquad & \frac{w_G\times r_G+w_B\times r_B}{\sqrt{w_G^2 \sigma _G^2 + w_B^2 \sigma _B^2}}\\
   s.t. \quad & w_G+w_B=1\\
-  & 0 \le w_G \le 1 \\
-\end{align*}
+  & 0 \le w_G \le 1 
+  \end{align*}
+
 \end{enumerate}
 
 
@@ -399,9 +400,14 @@ And we can use the computer to find its numerical solution.
 \end{enumerate}
 \subsubsection{其他说明}
 \begin{itemize}
-  \item 卖出标准除了预期收益
-\end{itemize}
+  \item 除了4.2.1提到的卖出标准之外，当某种资产过去4天的累计跌幅超过百分之十时，也会决定卖出该资产。这条规则补充了
+  仅仅依靠预测数据进行判断的不足。当预测数据失灵时，这条规则可以及时让我们卖出资产，以避免难以想象的巨大损失。
+  \item 由于预测的收益率是未来七天的收益率，因此买入资产后我们至少要持有资产七天才能获得预期收益。这对于卖出也是一样的。
+  因此每当一种资产交易过后，那么在未来的七天内它将无法被交易。
 
+\end{itemize}
+\subsubsection{运行结果}
+根据计算机多次模拟结果，当$\beta =0.2$时整体收益最高。
 
 
 
