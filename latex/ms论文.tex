@@ -83,11 +83,9 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 
 
 
-
-
-
-
 \section{Assumption}
+
+
 
 
 
@@ -95,21 +93,107 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 对于我们要解决的数据分析问题，数据的平稳性是我们的模型的基础。
 通常来说，原始数据中的不完整和异常数据可能会大大影响我们问题的分析效率和结果准确性。
 故，对数据的分析、预先处理是必不可少。
+
+
 \subsection{Data Screening}
+We analyzed the raw data in the LBMA-GOLD.csv and BCHAIN-MKPRU.csv files,final data status is as follows:
+
+
+%插入图片
+For the missing data in LBMA-GOLD.csv, we fill in the date according to the average of the day before and the day after.
+
 
 \subsection{Data Visualization}
+To observe the price trends of gold and bitcoin more visually,
+we visualize the given data and draw figure\ref{fig1}and\ref{fig2}
+\begin{figure}[h]
+  %\small
+  \centering
+  \subfigure[1]{
+  \includegraphics[width=0.9\columnwidth]{D:/meisai/ms/fig/gold.eps}}
+  \caption{Gold price tendency} \label{fig1}
+  %\hfill
+  \centering
+  \subfigure[2]{
+    \includegraphics[width=0.9\columnwidth]{D:/meisai/ms/fig/Bitcoin.eps}}
+  \caption{Bitcoin price tendency} \label{fig2}
+  \end{figure}
+
 
 \subsection{Mining Time Series}
+For subsequent data prediction using the time series model ARIMA,
+We perform stability test and white noise test on the raw data and processed data as a way to mine meaningful time series.
+
+
 \subsubsection{Stability Test}
+First,we test the stability of the original data by comparing two methods, the image observation and the unit root test.
 
+\begin{figure}[!hb]
+  \centering 
+  \includegraphics[height=2.85in]{D:/meisai/ms/fig/fig3G.eps}
+  \includegraphics[height=2.85in]{D:/meisai/ms/fig/fig3b.eps}
+  \caption{Raw data visualization} \label{fig3}
+\end{figure}
+
+
+Testing unit root，and result is shown below:
+
+%一阶差分
+Secondly,the first-order difference data is obtained according to the first-order difference of the original data, 
+and the two methods abrove are also used to test.The result is as follows.\ref{fig4}
+\begin{figure}[!hb]
+  \centering 
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd1.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/bd1.eps}
+  \caption{first order difference data} \label{fig4}
+\end{figure}
+
+
+
+%二阶
+Thirdly,utilizing second order difference we obtained second order difference data with two methods testing
+The result is shown in\ref{fig5}.
+\begin{figure}[!h]
+  \centering 
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd2.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/bd2.eps}
+  \caption{second order difference data} \label{fig5}
+\end{figure}
+
+
+%白噪音检验
 \subsubsection{White Noise Test}
+We need to evaluate whether the data is white noise or not, 
+and will discard the one that is white noise because it has no research significance.
+So We chose Ljung-Box test to meet the demands.
+
+The first step is to examine the raw data,The test yielded the following graph
+
+The second step,we test first order difference data,result can be seen below
+
+Third,we test second order difference data,result is shown below
 
 
-
+%第一问
 \section{PartⅠ：Model Development }
 \subsection{Time Series Model ARIMA - Data Forecasting }
+\subsubsection{Model Theory}
+Autoregressive Integrated Moving Average model is the differential integrated moving average autoregressive model, 
+also known as the integrated moving(or slilding)average autoregressive model, 
+is one of the time series forecasting analysis methods. 
+In ARIMA(p, d, q),AR is "autoregressive", p is the number of autoregressive terms;
+MA is "sliding average ",q is the number of sliding average terms, and d is the number of differences (order) made to make it a smooth series.
+Although the word "difference" does not appear in the English name of ARIMA, it is a key step to analyse time series.
+%补充公式
 
-\subsubsection{Train the Model With All the Data}
+\subsubsection{Determining the parameters p, q from the autocorrelation and partial autocorrelation plots}
+Tail-dragging: always have non-zero values, not constant equal to zero after k is greater than some constant (or fluctuate randomly around 0).
+Truncated tail: After greater than a constant k, it quickly tends to 0 as a k-order truncated tail when both autocorrelation and partial.
+
+
+
+
+
 
 \subsubsection{Model Validating}
 
@@ -120,13 +204,7 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 
 \subsection{Investment Decision Model - Dynamic Programming }
 %流程图
-\iffalse
-\begin{figure}[!hb]
-    \centering  %图片居中显示        %路径不能有中文
-    \includegraphics[width=3cm]{jinyue.png}
-    \caption{这是美丽喀纳斯} \label{kanasi}
- \end{figure}
-\fi
+
 
 \subsubsection{Buy and Sell Standard Setting}
 
