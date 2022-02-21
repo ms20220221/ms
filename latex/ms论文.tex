@@ -45,6 +45,13 @@ keyword1; keyword2
 %% \end{memo}
 %%
 
+\newpage
+\thispagestyle{empty}
+\tableofcontents
+\newpage
+
+
+
 \section{Introduction}
 \subsection{Background}
 随着个人资产的累计，越来越多的人进入投资市场，为了在使现有资产保值或更有价值。
@@ -60,20 +67,17 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 \subsection{Problem Statement}
 
 
-
 \subsection{Problem Analysis}
 为了更好的帮助交易者做出每日投资决策，我们
 
 
 
-
+\iffalse
 \begin{itemize}
 \item the angular velocity of the bat,
 \item the velocity of the ball, and
 \item the position of impact along the bat.
 \end{itemize}
-\lipsum[4]
-\emph{center of percussion} [Brody 1986], \lipsum[5]
 
 \begin{Theorem} \label{thm:latex}
 \LaTeX
@@ -85,36 +89,45 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 The proof of theorem.
 \end{proof}
 
-\subsection{Other Assumptions}
-\lipsum[6]
 \begin{itemize}
 \item
 \item
 \item
 \item
 \end{itemize}
+\fi                          %整段注释
 
-\lipsum[7]
 
-\section{Analysis of the Problem}
 
-\begin{figure}[h]
-\small
-\centering
-\subfigure[1]{
-\includegraphics[width=0.3\columnwidth]{example-image-a}}
-\hfill
-\centering
-\subfigure[2]{
-  \includegraphics[width=0.3\columnwidth]{example-image-b}}
-\caption{The name of figure} \label{fig:aa}
-\end{figure}
+\section{Assumption}
 
-\lipsum[8] \eqref{aa}
-\begin{equation}
-a^2 \label{aa}
-\end{equation}
 
+
+\section{Data Processing}
+\subsection{Data Screening}
+
+\subsection{Data Visualization}
+
+\subsection{Mining Time Series}
+
+
+%\begin{figure}[h]
+%\small
+%\centering
+%\subfigure[1]{
+%\includegraphics[width=0.3\columnwidth]{example-image-a}}
+%\hfill
+%\centering
+%\subfigure[2]{
+%  \includegraphics[width=0.3\columnwidth]{example-image-b}}
+%\caption{The name of figure} \label{fig:aa}
+%\end{figure}
+
+%\lipsum[8] \eqref{aa}
+%\begin{equation}
+%a^2 \label{aa}
+%\end{equation}
+\iffalse
 \[
   \begin{pmatrix}{*{20}c}
   {a_{11} } & {a_{12} } & {a_{13} }  \\
@@ -123,7 +136,7 @@ a^2 \label{aa}
   \end{pmatrix}
   = \frac{{Opposite}}{{Hypotenuse}}\cos ^{ - 1} \theta \arcsin \theta
 \]
-\lipsum[9]
+
 
 \[
   p_{j}=\begin{cases} 0,&\text{if $j$ is odd}\\
@@ -131,7 +144,6 @@ a^2 \label{aa}
   \end{cases}
 \]
 
-\lipsum[10]
 
 \[
   \arcsin \theta  =
@@ -140,28 +152,83 @@ a^2 \label{aa}
   {\mathop {\lim }\limits_{x \to \infty } \frac{{n!}}{{r!\left( {n - r}
   \right)!}}} 
 \]
+\fi
 
-\section{Calculating and Simplifying the Model  }
-\lipsum[11]
 
-\section{The Model Results}
-\lipsum[6]
 
-\section{Validating the Model}
-\lipsum[9]
+\section{PartⅠ：Model Development }
+\subsection{Time Series Model ARIMA - Data Forecasting }
+\subsubsection{Stability Test}%翻译
+
+\subsubsection{White Noise Test}%翻译
+
+\subsubsection{Train the Model With All the Data}
+
+\subsubsection{Model Validating}
+
+\subsubsection{Model Prediction and Visualization}
+
+\subsubsection{Batch prediction of data }   %去未来七天
+
+
+\subsection{Investment Decision Model - Dynamic Programming }
+%流程图
+\iffalse
+\begin{figure}[!hb]
+    \centering  %图片居中显示        %路径不能有中文
+    \includegraphics[width=3cm]{jinyue.png}
+    \caption{这是美丽喀纳斯} \label{kanasi}
+ \end{figure}
+\fi
+
+\subsubsection{Buy and Sell Standard Setting}
+
+\subsubsection{Portfolio Optimal Ratio Identification}
+
+\subsubsection{Positioning Standard Identification}
+
+\subsubsection{Daily Portfolio Determinations}
+
+
+
+
+
+
+\section{PartⅡ:Strategy Evaluation}
+\subsection{Set Perturbation Terms }%to determine optimal parameters }
+
+\subsection{Comparison Illustrates the Best Strategy}
+
+
+
+
+\section{PartⅢ:Sensitivity Analysis}
+\subsection{Assuming Changes In Commission}
+
+\subsection{Visualization Results}%Analysis ensitivity}
+
+
+
+
+
+\section{Evaluate of the Model}
+\subsection{Strengths and weaknesses}
+
+\subsection{Sensitivity Analysis}
+
+
+
 
 \section{Conclusions}
-\lipsum[6]
 
-\section{A Summary}
-\lipsum[6]
 
-\section{Evaluate of the Mode}
+\section{A Memo}
 
-\section{Strengths and weaknesses}
-\lipsum[12]
 
-\subsection{Strengths}
+
+
+
+
 \begin{itemize}
 \item \textbf{Applies widely}\\
 This  system can be used for many types of airplanes, and it also
@@ -189,9 +256,13 @@ Addison-Wesley Publishing Company, 1986.
 
 In addition, your report must include a letter to the Chief Financial Officer (CFO) of the Goodgrant Foundation, Mr. Alpha Chiang, that describes the optimal investment strategy, your modeling approach and major results, and a brief discussion of your proposed concept of a return-on-investment (ROI). This letter should be no more than two pages in length.
 
-\begin{letter}{Dear, Mr. Alpha Chiang}
 
-\lipsum[1-2]
+
+
+
+
+
+\begin{letter}{Dear, Mr. Alpha Chiang}
 
 \vspace{\parskip}
 
