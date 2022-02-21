@@ -238,12 +238,34 @@ the training data used each day are inconsistent,
 it is not practical to determine the optimal parameters for the model through autocorrelation and partial autocorrelation plots, 
 so we use the auto.arima function in R language to automate the parameter determination.
 
+The best model information was obtained after using the auto.arima function with all given data.
+And the model is as follows:
 
-\subsubsection{Model Validating}
+
+
+%模型残差白噪声检验
+\subsubsection{White noise test for model residuals}
+It is usually assumed that the model residuals of a reasonable model should be white noise.
+logically we conducted a white noise test on the residuals of the resulting model.
+The results are as follows.
+
+
 
 \subsubsection{Model Prediction and Visualization}
+To make the results more intuitive,we use the model to calculate and predict the historical data. 
+And the visualization results are shown in the figure
 
-\subsubsection{Batch prediction of data }   %去未来七天
+
+The reason for the large overlap of lines in Figure 6 is that the data sample is too large.
+So we choose 100 of these samples and make graph7.
+
+\subsubsection{Batch prediction of data}   %去未来七天
+Based on the price data as of the day,we predicted gold and bitcoin price for the next 7 days 
+and the same automated arima modeling is performed using the auto.arima function to obtain the price data for the next 7 days.
+By analyzing the forecast data, we observed a roughly linear variation. 
+Then,we integrated these data using linear regression to clarity the future price trend 
+and fitted slope quantifies the trend to make the better investment decisions.
+
 
 
 \subsection{Investment Decision Model - Dynamic Programming }
