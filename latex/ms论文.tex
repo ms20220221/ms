@@ -1,13 +1,13 @@
 
 \documentclass{mcmthesis}
 \mcmsetup{CTeX = true,   % 使用 CTeX 套装时，设置为 true
-        tcn = 0000, problem = A,
+        tcn = 2227906, problem = C,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = true, abstract = true}
 \usepackage{newtxtext}%\usepackage{palatino}
 \usepackage{lipsum}
 \usepackage{subfigure}
-\title{The \LaTeX{} Template for MCM Version \MCMversion}
+\title{A Short-Term Arbitrage Model of Two Risk Portfolio}
 \author{\small \href{https://www.latexstudio.net/}
   {\includegraphics[width=7cm]{mcmthesis-logo}}}
 \date{\today}
@@ -18,6 +18,7 @@
 
 \begin{keywords}
 % 关键词
+短期套利，两风险资产组合，夏普比率，交易佣金，
 keyword1; keyword2
 
 
@@ -62,7 +63,7 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 \begin{enumerate}    %有序列表 
   \item 用原始数据建立一个模型，分析黄金和比特币价值走向
   \item 基于时间序列模型，预测未来波动性资产的走势
-  \item 解决利用动态规划实现利益最大化问题
+  \item 解决利用动态规划实现利益最大化问题,同时兼顾风险
   \item 确定交易者每天的交易决策以及交易行为，在有交易佣金的背景下
   \item 证明我们提供了最优策略
   \item Determine how sensitive the strategy is to transaction costs
@@ -97,7 +98,17 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 \subsection{Data Screening}
 We analyzed the raw data in the LBMA-GOLD.csv and BCHAIN-MKPRU.csv files,final data status is as follows:
 
-
+\begin{table}[]
+  \begin{tabular}{ccc}
+               & gold    & bitcoin  \\
+  count        & 1255    & 1826     \\
+  mean         & 1464.54 & 12206.06 \\
+  std          & 249.29  & 14043.89 \\
+  min          & 1125.7  & 594.08   \\
+  max          & 2067.15 & 11084.73 \\
+  missing data & 10      & 0       
+  \end{tabular}
+  \end{table}
 %插入图片
 For the missing data in LBMA-GOLD.csv, we fill in the date according to the average of the day before and the day after.
 
@@ -226,6 +237,17 @@ MA is "sliding average ",q is the number of sliding average terms, and d is the 
 Although the word "difference" does not appear in the English name of ARIMA, it is a key step to analyse time series.
 %补充公式
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+$\left(1-\sum_{i=1}^{p} L^i \right)(1-L)^d X_t=\left(1+\sum_{i=1}^{q}\theta_i L^i \right)\varepsilon_t$
+
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
 %确定系数pq
 \subsubsection{Determining the parameters p, q }
 We take advantage of the autocorrelation and partial autocorrelation plots to find out the parameters p, q.
