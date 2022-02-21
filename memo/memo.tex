@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Memo
+% LaTeX Template
+% Version 1.0 (30/12/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rob Oakes (http://www.oak-tree.us) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,11pt]{texMemo} % Set the paper size (letterpaper, a4paper, etc) and font size (10pt, 11pt or 12pt)
+
+\usepackage{parskip} % Adds spacing between paragraphs
+\setlength{\parindent}{15pt} % Indent paragraphs
+
+
+\memoto{Traders} % Recipient(s)
+
+\memofrom{Team 2227906} % Sender(s)
+
+\memosubject{A Short-Term Arbitrage Model of Two Risk Portfolio} % Memo subject
+
+\memodate{\today} % Date, set to \today for automatically printing todays date
+
+\logo{\includegraphics[width=0.2\textwidth]{mslogo.png}} % Institution logo at the top right of the memo, comment out this line for no logo
+
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle 
+Dear Traders,
+
+   It's a great pleasure to have a connection with you the other day,when we had a constructive discussion on prospect of 
+your investment.In order to maximize your interests,we built a model to meet your investment need.
+   
+   Having made some suverys on investment in Bitcoin and Gold,
+we found it is difficult to accurately predict the movements.
+So we employed ARIMA model for the problem.I have summarized the key points of how our model was built:
+
+\begin{enumerate}    %有序列表
+    \item Time series model ARIMA predicts future seven-day data
+    
+    \item The future price trend is obtained by linearly fitting the data for the next seven days and quantified by the slope k.
+    
+    \item Determine the trading commission ratios a and b, risk appetite indicators, etc. based on the slope k. 
+    
+    and specify buy criteria, sell criteria and position adjustment standard.
+
+    \item Determine the daily trading strategy based on each criterion and perform simulation trading to calculate the final asset.
+
+\end{enumerate}
+
+   After testing,we can make sure our model is very reliable. In addition,simulation results prove that the model can achieve quite objective profitability.
+%仿真图
+Every trader can operate our model at their disposal,because it only needs historical price data and does not require any additional data to work.
+You no longer need to be tormented by obsessing about how to trade every day.Our model will tell you exactly what to do with your daily investments,
+including guidance on whether to buy or sell assets and what percentage of gold and bitcoin to buy.
+It is profitable for you to arbitrage and preserve value.
+
+   In brief, the advantages of our model are as follows:
+   \begin{enumerate}    %有序列表 
+    \item By using the time series model ARIMA to forecast the data, the prediction is effective and can be applied as a future price reference for decision making.
+    
+    \item Our trade model extends the generalizability of the model by fully considering return and risk factors and introducing risk appetite indicators.
+    
+    \item The model is more stable than the conventional model, and the variation of the model results is small for minor perturbations.
+    
+    \item The model grasp bitcoin price fluctuations well, for fully capturing the ups and downs of bitcoin.
+    
+  \end{enumerate}
+
+    Every coin has two sides,and our model is no exception.
+    \textbf{Weaknesses}
+\begin{enumerate}    %有序列表 
+  \item The model forecast of gold changes needs to be improved and the profitability level is relatively low.
+  
+  \item The model performs well when the risk appetite indicator is 0.05-0.45 and can be considered an average risk taker, but otherwise the model underperforms.
+   
+    According to different risk aversion for each individual,you may get different investment results.You can see the results visually in the table below.
+%插图
+
+    To sum up,you can profit more at the expense of stability of your investment.
+And you need to be aware that our predictions are not necessarily accurate,no conclusion should be drawn before the real price is announced.
+    
+     Best wishes!
+
+                                                                                                                                     Your Sincerely,
+                                                                                                                                     Team 2227906
+\end{document}
