@@ -1,4 +1,4 @@
-# 交易冷却期：两笔相邻买卖之间至少相隔5天？
+# 交易冷却期：两笔相邻买卖之间至少相隔7天
 from base64 import encode
 from cmath import sqrt
 import csv
@@ -90,7 +90,7 @@ for today in range(1,len(data)):
         if gold_wait<=0:
             if gold_7zdf>200*gold_crate/gold_hold_avg:# 买入标准
                 gold_wanna_buy=True
-            if gold_7zdf<200*gold_crate/gold_hold_avg :# 卖出标准
+            if gold_7zdf<0 :# 卖出标准
                 gold_wanna_sell=True
                 gold_wanna_buy=False
     
@@ -100,11 +100,11 @@ for today in range(1,len(data)):
     if bit_wait<=0:
         if bit_7zdf>200*bit_crate/bit_hold_avg:# 买入标准
             bit_wanna_buy=True
-        if bit_7zdf<200*bit_crate/bit_hold_avg :# 卖出标准
+        if bit_7zdf<0 :# 卖出标准
             bit_wanna_sell=True
             bit_wanna_buy=False
 
-    if data[today-1][8]+data[today-2][8]+data[today-3][8]+data[today-4][8]+data[today-5][8]<-10:
+    if data[today-1][8]+data[today-2][8]+data[today-3][8]+data[today-4][8]<-10:
         bit_wanna_sell=True
         bit_wanna_buy=False
 
