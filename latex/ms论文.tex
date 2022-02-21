@@ -18,7 +18,7 @@
 
 \begin{keywords}
 % 关键词
-短期套利，两风险资产组合，夏普比率，交易佣金，
+短期套利，两风险资产组合，夏普比率，交易佣金，均值方差模型，
 keyword1; keyword2
 
 
@@ -332,16 +332,26 @@ and fitted slope quantifies the trend to make the better investment decisions.
 
 \subsection{Trading Strategy Model - Dynamic Programming }
 符号说明：\textbf{Notation:}
+
 $w_G$:持有黄金的比例Gold holding ratio
+
 $w_B$:持有比特币的比例Bitcoin holding ratio
+
 $r_G$:黄金预期收益率Gold expected return
+
 $r_B$:比特币预期收益率Bitcoin expected return
+
 $\alpha _G$:交易黄金时的佣金比例Commission ratio of gold transaction
+
 $\alpha _B$:交易比特币时的佣金比例commission ratio of bitcoin transaction
+
 $\sigma _G$:黄金的历史收益率的下半方差Gold lower semi-variance of historical yield
+
 $\sigma _B$:比特币的历史收益率的下半方差Bitcoin lower semi-variance of historical yield
+
 $\beta $:交易者的风险厌恶系数Risk aversion coefficient of trader
-$T$:每次购买资产后持有的平均天数The average number of days held after each purchase of assets
+
+$T$:每次购买资产后持有的平均天数The average number of days holding an asset after each purchase 
 
 %流程图
 
@@ -358,9 +368,9 @@ When the asset is about to lose more than commission cost,model needs to sold Ho
 当预期收益大到足以抵消这个成本时，就可以考虑买入。当预期收益小于负的成本时，代表持有
 该资产的亏损额即将超过成本，需要立刻抛出止损。
 
-If如果$r>(1+\beta )\alpha \div T$，代表该资产近期会涨，可以买入。it means that the asset will appreciation in the future,so trader can be buy in.
+If如果$r>(1+\beta )\alpha \div T$，代表该资产近期会涨，可以买入。,it means that the asset will appreciation in the future,so trader can be buy in.
 
-If如果$r<-(1-\beta )\alpha \div T$，代表该资产近期会跌，必须卖出。it represents that the asset will depreciation in upcoming period,so trader must sell them out .
+If如果$r<-(1-\beta )\alpha \div T$，代表该资产近期会跌，必须卖出。,it represents that the asset will depreciation in upcoming period,so trader must sell them out .
 
 If如果$-(1-\beta )\alpha \div T<r<(1+\beta )\alpha \div T$,代表资产近期价格稳定，不需要买也不需要卖。it indicates that recent prices are stable,trader can either buy or sell.
 
@@ -371,7 +381,7 @@ moreover,由于投资者、投资产品的不同，due to the difference in inve
 %$\beta $越大，表示投资者越保守，买入的限制更严格，卖出的限制更宽松。
 反之，表示投资者越激进，他有更宽松的买入标准和更严格的卖出标准。
 The larger the $\beta $,refers to the more conservative the investors is,stricter restrictions on buying and more lenient restrictions on selling.
-On the contrary,thr smaller $\beta $ indicates that the more aggressive the investor is, who has more lenient buying criteria and more stringent selling criteria.
+On the contrary,thr smaller $\beta $ indicates that the more aggressive the investor is, who has a higher standard of purchusing and a lower standard of selling.
 
 
 Additionally,we have to consider the following two situations when purchasing:
@@ -381,8 +391,7 @@ Additionally,we have to consider the following two situations when purchasing:
   \item 而如果黄金和比特币同时上涨，就需要考虑如何分配可用资金。在这种情况下，我们采用夏普比率衡量不同比例投资组
   合的好坏程度。Whereas if gold and bitcoin rise at the same time,there is a need to consider how to allocate the available funds. 
   In this case, we use the Sharpe ratio to measure the different proportional investment groups
-
-  $$ Sharpe \; Ratio=\frac{w_G\times r_G+w_B\times r_B}{\sqrt{w_G^2 \sigma _G^2 + w_B^2 \sigma _B^2+2Cov_{w_B w_G}}}$$
+$$ Sharpe \; Ratio=\frac{w_G\times r_G+w_B\times r_B}{\sqrt{w_G^2 \sigma _G^2 + w_B^2 \sigma _B^2+2Cov_{w_B w_G}}}$$
   我们用下半标准差作为衡量风险的量化指标，作为标准差中代表小于均值的波动的部分，它更能体现资产亏损的风险。
 We use the lower semi-variance as a quantitative index of risk, as the portion of the standard deviation that represents fluctuations less than the mean.
 which is more indicative of the risk of asset losses.
@@ -463,8 +472,13 @@ So there are a total of $2^3-2=6$ possible scenarios, to be specific: (solid cir
 
 \subsubsection{其他说明Additional Explanation}
 \begin{itemize}
-  \item 卖出标准除了预期收益
+  \item 除了在4.2.1中提到的卖出标准，当过去4天的资产价格累计跌幅超过百分之十时，我们应该立刻抛出该资产止损。这条规则帮助我们在预测数据失效时
+  有效防止巨额亏损。
+  \item 由于预测数据是未来7天的整体情况，所以一次交易的好处至少也要在第七天过去之后才显现。因此，每次交易过后该资产都会进入一个为期7天的交易冷却期。
+  这不仅可以防止交易次数过于频繁，还能使得每次购买、卖出时获得的收益最大化。
 \end{itemize}
+
+\subsubsection{结果}
 
 
 
