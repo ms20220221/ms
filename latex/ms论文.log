@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 20:06
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 20:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,11 +671,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (d:/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip85
 \subfig@bottom=\skip86
-) (./ms论文.aux
-
-LaTeX Warning: Label `fig61' multiply defined.
-
-)
+) (./ms论文.aux)
 \openout1 = `ms论文.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -802,27 +798,11 @@ File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 44.
- (./ms论文.toc
-Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
-Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
-Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
- [1]
-Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
-)
+ (./ms论文.toc)
 \tf@toc=\write5
 \openout5 = `ms论文.toc'.
 
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 45.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2]
+ [1]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 50.
 Missing character: There is no 随 ("968F) in font ntx-Regular-tlf-t1!
@@ -1527,6 +1507,13 @@ File: D:/meisai/ms/fig/fig3G.eps Graphic file (type eps)
 <D:/meisai/ms/fig/fig3G.eps>
 File: D:/meisai/ms/fig/fig3b.eps Graphic file (type eps)
 <D:/meisai/ms/fig/fig3b.eps>
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 136.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 136.
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 136.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1534,7 +1521,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3]
+[2]
 Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
 File: D:/meisai/ms/fig/gd1.eps Graphic file (type eps)
 <D:/meisai/ms/fig/gd1.eps>
@@ -1549,6 +1536,23 @@ File: D:/meisai/ms/fig/bd2.eps Graphic file (type eps)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 170.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]
+Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 189.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -1556,8 +1560,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
-Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
+File: D:/meisai/ms/fig/g6.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g6.eps>
+File: D:/meisai/ms/fig/b6.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b6.eps>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
+Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 275.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1567,44 +1581,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
-File: D:/meisai/ms/fig/g6.eps Graphic file (type eps)
-<D:/meisai/ms/fig/g6.eps>
-File: D:/meisai/ms/fig/b6.eps Graphic file (type eps)
-<D:/meisai/ms/fig/b6.eps>
 
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 275.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: D:/meisai/ms/fig/g61.eps Graphic file (type eps)
-<D:/meisai/ms/fig/g61.eps>
-File: D:/meisai/ms/fig/b61.eps Graphic file (type eps)
-<D:/meisai/ms/fig/b61.eps>
-File: D:/meisai/ms/fig/g661.eps Graphic file (type eps)
-<D:/meisai/ms/fig/g661.eps>
-File: D:/meisai/ms/fig/b661.eps Graphic file (type eps)
-<D:/meisai/ms/fig/b661.eps>
-
-LaTeX Warning: Float too large for page by 212.5717pt on input line 218.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: D:/meisai/ms/fig/g62.eps Graphic file (type eps)
-<D:/meisai/ms/fig/g62.eps>
-File: D:/meisai/ms/fig/b62.eps Graphic file (type eps)
-<D:/meisai/ms/fig/b62.eps>
-File: D:/meisai/ms/fig/g661.eps Graphic file (type eps)
-<D:/meisai/ms/fig/g661.eps>
-File: D:/meisai/ms/fig/b661.eps Graphic file (type eps)
-<D:/meisai/ms/fig/b661.eps>
-
-LaTeX Warning: Float too large for page by 154.75218pt on input line 230.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
-Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1613,6 +1592,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 275.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 277.
+ (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 277.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 280.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 280.
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 285.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1621,18 +1616,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 299.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 301.
- (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
-File: t1ntxtt.fd 2012/04/20 v3.1
-)
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 301.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 304.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 304.
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 304.
+(d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 19.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1642,35 +1635,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
-
- []
-
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 328.
-(d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[9]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
  (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)) 
+))
+
+Package lastpage Warning: Rerun to get the references right on input line 312.
+
+
 AED: lastpage setting LastPage
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 312.
 
-[10]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1678,28 +1654,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11]
+[9] (./ms论文.aux)
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+LaTeX Warning: There were undefined references.
 
-[12] (./ms论文.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `ms论文.out' has not changed.
-(rerunfilecheck)             Checksum: AC8F0C99C423CC99DC6D444D37D5ACD3;6470.
+
+Package rerunfilecheck Warning: File `ms论文.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ms论文.out':
+(rerunfilecheck)             Before: 8EAAE0BEBE58AED98BA86B6A92972540;2281
+(rerunfilecheck)             After:  AC8F0C99C423CC99DC6D444D37D5ACD3;6470.
  ) 
 Here is how much of TeX's memory you used:
- 15301 strings out of 476919
- 221508 string characters out of 5825425
- 833157 words of memory out of 5000000
- 34905 multiletter control sequences out of 15000+600000
- 468246 words of font info for 121 fonts, out of 8000000 for 9000
+ 15273 strings out of 476919
+ 220911 string characters out of 5825425
+ 831157 words of memory out of 5000000
+ 34883 multiletter control sequences out of 15000+600000
+ 471045 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,12n,99p,383b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,13n,99p,383b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ms论文.pdf (14 pages).
+Output written on ms论文.pdf (11 pages).
