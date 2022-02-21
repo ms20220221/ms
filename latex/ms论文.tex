@@ -130,8 +130,8 @@ First,we test the stability of the original data by comparing two methods, the i
 
 \begin{figure}[!hb]
   \centering 
-  \includegraphics[height=2.85in]{D:/meisai/ms/fig/fig3G.eps}
-  \includegraphics[height=2.85in]{D:/meisai/ms/fig/fig3b.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3G.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3b.eps}
   \caption{Raw data visualization} \label{fig3}
 \end{figure}
 
@@ -185,13 +185,49 @@ In ARIMA(p, d, q),AR is "autoregressive", p is the number of autoregressive term
 MA is "sliding average ",q is the number of sliding average terms, and d is the number of differences (order) made to make it a smooth series.
 Although the word "difference" does not appear in the English name of ARIMA, it is a key step to analyse time series.
 %补充公式
+%确定系数pq
+\subsubsection{Determining the parameters p, q }
+We take advantage of the autocorrelation and partial autocorrelation plots to find out the parameters p, q.
+The following figures show the the format of autocorrelation and partial autocorrelation plots.
+\begin{figure}[!h]
+  \centering 
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/g6.eps}
+  \caption{Autocorrelation diagram}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/b6.eps}
+  \caption{Partial autocorrelation diagram} \label{fig6}
+\end{figure}
 
-\subsubsection{Determining the parameters p, q from the autocorrelation and partial autocorrelation plots}
+In theory
 Tail-dragging: always have non-zero values, not constant equal to zero after k is greater than some constant (or fluctuate randomly around 0).
+
 Truncated tail: After greater than a constant k, it quickly tends to 0 as a k-order truncated tail when both autocorrelation and partial.
 
+By figure \ref{fig4}and \ref{fig5}, it can be seen that the first order difference data and the second order difference data are meaningful time series.
+Therefore,we use the same methods in the subsequent section.The analysis charts are as follows.
 
+\begin{figure}[!h]
+  \includegraphics[height=2.6in]{D:/meisai/ms/fig/g61.eps}
+  \caption{First order differential autocorrelation diagram-gold}
+  \includegraphics[height=2.6in]{D:/meisai/ms/fig/b61.eps}
+  \caption{First order differential partial autocorrelation diagram-bitcoin} 
+  \includegraphics[height=2.6in]{D:/meisai/ms/fig/g661.eps}
+  \caption{First order differential autocorrelation diagram-gold}
+  \includegraphics[height=2.6in]{D:/meisai/ms/fig/b661.eps}
+  \caption{First order differential partial autocorrelation diagram-bitcoin} 
+  \label{fig61}
+\end{figure}
 
+\begin{figure}[!h]
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g62.eps}
+  \caption{Second order differential autocorrelation diagram-gold}
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b62.eps}
+  \caption{Second order differential partial autocorrelation diagram-bitcoin} 
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g661.eps}
+  \caption{Second order differential autocorrelation diagram-gold}
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b661.eps}
+  \caption{Second order differential partial autocorrelation diagram-bitcoin} 
+  \label{fig61}
+\end{figure}
 
 
 

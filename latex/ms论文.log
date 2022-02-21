@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.27)  21 FEB 2022 20:19
+=======
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 20:06
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -671,8 +675,16 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (d:/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip85
 \subfig@bottom=\skip86
+<<<<<<< HEAD
 )
 No file ms论文.aux.
+=======
+) (./ms论文.aux
+
+LaTeX Warning: Label `fig61' multiply defined.
+
+)
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
 \openout1 = `ms论文.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -802,6 +814,16 @@ File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 44.
+<<<<<<< HEAD
+=======
+ (./ms论文.toc
+Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
+Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
+ [1]
+Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
+)
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
 \tf@toc=\write5
 \openout5 = `ms论文.toc'.
 
@@ -1769,8 +1791,61 @@ File: D:/meisai/ms/fig/bd2.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4]
 Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
 Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+File: D:/meisai/ms/fig/g6.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g6.eps>
+File: D:/meisai/ms/fig/b6.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b6.eps>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: D:/meisai/ms/fig/g61.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g61.eps>
+File: D:/meisai/ms/fig/b61.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b61.eps>
+File: D:/meisai/ms/fig/g661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g661.eps>
+File: D:/meisai/ms/fig/b661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b661.eps>
+
+LaTeX Warning: Float too large for page by 212.5717pt on input line 218.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: D:/meisai/ms/fig/g62.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g62.eps>
+File: D:/meisai/ms/fig/b62.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b62.eps>
+File: D:/meisai/ms/fig/g661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g661.eps>
+File: D:/meisai/ms/fig/b661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b661.eps>
+
+LaTeX Warning: Float too large for page by 154.75218pt on input line 230.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
 Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
 
@@ -1807,6 +1882,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+<<<<<<< HEAD
 [4]
 Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
@@ -1850,6 +1926,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 300.
 
+=======
+[6]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1858,8 +1936,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 300.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 299.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 301.
+ (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 301.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 304.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 304.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1869,9 +1957,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 300.
+ []
 
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 328.
+(d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1879,6 +1973,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+<<<<<<< HEAD
+[7]
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 300.
+
+=======
+[9]
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
+ (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)) 
+AED: lastpage setting LastPage
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+<<<<<<< HEAD
+[8]
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 300.
+
+=======
+[10]
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+<<<<<<< HEAD
 [9] (./ms论文.aux)
 
 LaTeX Warning: There were undefined references.
@@ -1906,3 +2036,30 @@ Here is how much of TeX's memory you used:
 
 Error 1 (driver return code) generating output;
 file ms论文.pdf may not be valid.
+=======
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12] (./ms论文.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `ms论文.out' has not changed.
+(rerunfilecheck)             Checksum: AC8F0C99C423CC99DC6D444D37D5ACD3;6470.
+ ) 
+Here is how much of TeX's memory you used:
+ 15301 strings out of 476919
+ 221508 string characters out of 5825425
+ 833157 words of memory out of 5000000
+ 34905 multiletter control sequences out of 15000+600000
+ 468246 words of font info for 121 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 86i,12n,99p,383b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on ms论文.pdf (14 pages).
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
