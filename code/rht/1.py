@@ -8,9 +8,9 @@ f=open("code\\ljh\\data_deleted_first30days.csv",encoding="UTF_8")
 data=np.loadtxt(f,delimiter=',')
 status=[[1,0,0,1000]]  #每天的现金份额、黄金份额、比特币份额、总资产
 
-risk_averse=1
-gold_crate=0.01
-bit_crate=0.02
+risk_averse=0.2
+gold_crate=0
+bit_crate=0
 gold_wait=0
 bit_wait=0
 gold_hold_day=0
@@ -421,3 +421,6 @@ for today in range(1,len(data)):
 with open('code\\ljh\\huice\\risk'+str(risk_averse)+'.csv','w',newline='')as f:
     f_csv = csv.writer(f)
     f_csv.writerows(status)
+# with open('code\\ljh\\huice\\risk'+str(risk_averse)+'.csv','w',newline='')as f:
+#     f_csv = csv.writer(f)
+#     f_csv.writerows(status)
