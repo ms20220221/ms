@@ -63,7 +63,7 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 \begin{enumerate}    %有序列表 
   \item 用原始数据建立一个模型，分析黄金和比特币价值走向
   \item 基于时间序列模型，预测未来波动性资产的走势
-  \item 解决利用动态规划实现利益最大化问题
+  \item 解决利用动态规划实现利益最大化问题,同时兼顾风险
   \item 确定交易者每天的交易决策以及交易行为，在有交易佣金的背景下
   \item 证明我们提供了最优策略
   \item Determine how sensitive the strategy is to transaction costs
@@ -98,7 +98,17 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 \subsection{Data Screening}
 We analyzed the raw data in the LBMA-GOLD.csv and BCHAIN-MKPRU.csv files,final data status is as follows:
 
-
+\begin{table}[]
+  \begin{tabular}{ccc}
+               & gold    & bitcoin  \\
+  count        & 1255    & 1826     \\
+  mean         & 1464.54 & 12206.06 \\
+  std          & 249.29  & 14043.89 \\
+  min          & 1125.7  & 594.08   \\
+  max          & 2067.15 & 11084.73 \\
+  missing data & 10      & 0       
+  \end{tabular}
+  \end{table}
 %插入图片
 For the missing data in LBMA-GOLD.csv, we fill in the date according to the average of the day before and the day after.
 
