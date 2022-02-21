@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 20:27
+=======
+<<<<<<< HEAD
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.27)  21 FEB 2022 20:19
+=======
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 20:06
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
+>>>>>>> 857c21cdcb8001af1b4b679dac0eefd0c00e0ff6
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/meisai/ms/latex/ms论文
-(d:/meisai/ms/latex/ms论文.tex
+**c:/Users/27771/Desktop/ms/latex/ms论文
+(c:/Users/27771/Desktop/ms/latex/ms论文.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./mcmthesis.cls
 Document Class: mcmthesis 2021/01/05 v6.3.1 The Thesis Template Designed For MCM/ICM
@@ -671,7 +679,20 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (d:/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip85
 \subfig@bottom=\skip86
+<<<<<<< HEAD
 ) (./ms论文.aux)
+=======
+<<<<<<< HEAD
+)
+No file ms论文.aux.
+=======
+) (./ms论文.aux
+
+LaTeX Warning: Label `fig61' multiply defined.
+
+)
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
+>>>>>>> 857c21cdcb8001af1b4b679dac0eefd0c00e0ff6
 \openout1 = `ms论文.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -684,7 +705,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 14.
- (d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+(d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 14.
@@ -750,9 +771,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
 LaTeX Info: Redefining \nameref on input line 14.
- (./ms论文.out) (./ms论文.out)
 \@outlinefile=\write4
 \openout4 = `ms论文.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@mv@tabular=\count320
 \c@mv@boldtabular=\count321
@@ -763,7 +787,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 26.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
- (d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+(d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
@@ -798,7 +822,20 @@ File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 15.55188pt on input line 44.
+<<<<<<< HEAD
  (./ms论文.toc)
+=======
+<<<<<<< HEAD
+=======
+ (./ms论文.toc
+Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
+Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
+ [1]
+Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
+)
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
+>>>>>>> 857c21cdcb8001af1b4b679dac0eefd0c00e0ff6
 \tf@toc=\write5
 \openout5 = `ms论文.toc'.
 
@@ -1493,18 +1530,135 @@ Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
 Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
 Missing character: There is no 少 ("5C11) in font ntx-Regular-tlf-t1!
 Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+
+
+LaTeX Warning: Reference `fig1' on page 2 undefined on input line 108.
+
+
+LaTeX Warning: Reference `fig2' on page 2 undefined on input line 108.
+
+
+LaTeX Warning: File `D:/meisai/ms/fig/gold.eps' not found on input line 113.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:113: LaTeX Error: File `D:/meisai/ms/fig/gold.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...\columnwidth]{D:/meisai/ms/fig/gold.eps}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:113: LaTeX Error: Cannot determine size of graphic in D:/meisai/ms/fig/gold.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...\columnwidth]{D:/meisai/ms/fig/gold.eps}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: D:/meisai/ms/fig/gold.eps Graphic file (type eps)
 <D:/meisai/ms/fig/gold.eps>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 113.
+
+LaTeX Warning: File `D:/meisai/ms/fig/Bitcoin.eps' not found on input line 118.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:118: LaTeX Error: File `D:/meisai/ms/fig/Bitcoin.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...lumnwidth]{D:/meisai/ms/fig/Bitcoin.eps}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:118: LaTeX Error: Cannot determine size of graphic in D:/meisai/ms/fig/Bitcoin.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ...lumnwidth]{D:/meisai/ms/fig/Bitcoin.eps}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: D:/meisai/ms/fig/Bitcoin.eps Graphic file (type eps)
 <D:/meisai/ms/fig/Bitcoin.eps>
+
+LaTeX Warning: Float too large for page by 287.35683pt on input line 120.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: File `D:/meisai/ms/fig/fig3G.eps' not found on input line 133.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:133: LaTeX Error: File `D:/meisai/ms/fig/fig3G.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...eight=2.85in]{D:/meisai/ms/fig/fig3G.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:133: LaTeX Error: Cannot determine size of graphic in D:/meisai/ms/fig/fig3G.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...eight=2.85in]{D:/meisai/ms/fig/fig3G.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: D:/meisai/ms/fig/fig3G.eps Graphic file (type eps)
 <D:/meisai/ms/fig/fig3G.eps>
+
+LaTeX Warning: File `D:/meisai/ms/fig/fig3b.eps' not found on input line 134.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:134: LaTeX Error: File `D:/meisai/ms/fig/fig3b.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...eight=2.85in]{D:/meisai/ms/fig/fig3b.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:134: LaTeX Error: Cannot determine size of graphic in D:/meisai/ms/fig/fig3b.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...eight=2.85in]{D:/meisai/ms/fig/fig3b.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: D:/meisai/ms/fig/fig3b.eps Graphic file (type eps)
 <D:/meisai/ms/fig/fig3b.eps>
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
@@ -1523,15 +1677,129 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+
+
+LaTeX Warning: Reference `fig4' on page 3 undefined on input line 143.
+
+
+LaTeX Warning: File `D:/meisai/ms/fig/gd1.eps' not found on input line 146.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:146: LaTeX Error: File `D:/meisai/ms/fig/gd1.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...[height=2.75in]{D:/meisai/ms/fig/gd1.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:146: LaTeX Error: Cannot determine size of graphic in D:/meisai/ms/fig/gd1.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...[height=2.75in]{D:/meisai/ms/fig/gd1.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: D:/meisai/ms/fig/gd1.eps Graphic file (type eps)
 <D:/meisai/ms/fig/gd1.eps>
+
+LaTeX Warning: File `D:/meisai/ms/fig/bd1.eps' not found on input line 147.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:147: LaTeX Error: File `D:/meisai/ms/fig/bd1.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...[height=2.75in]{D:/meisai/ms/fig/bd1.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:147: LaTeX Error: Cannot determine size of graphic in D:/meisai/ms/fig/bd1.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...[height=2.75in]{D:/meisai/ms/fig/bd1.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: D:/meisai/ms/fig/bd1.eps Graphic file (type eps)
 <D:/meisai/ms/fig/bd1.eps>
+
+LaTeX Warning: Reference `fig5' on page 3 undefined on input line 155.
+
+
+LaTeX Warning: File `D:/meisai/ms/fig/gd2.eps' not found on input line 158.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:158: LaTeX Error: File `D:/meisai/ms/fig/gd2.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...[height=2.75in]{D:/meisai/ms/fig/gd2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:158: LaTeX Error: Cannot determine size of graphic in D:/meisai/ms/fig/gd2.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 ...[height=2.75in]{D:/meisai/ms/fig/gd2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: D:/meisai/ms/fig/gd2.eps Graphic file (type eps)
 <D:/meisai/ms/fig/gd2.eps>
+
+LaTeX Warning: File `D:/meisai/ms/fig/bd2.eps' not found on input line 159.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:159: LaTeX Error: File `D:/meisai/ms/fig/bd2.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...[height=2.75in]{D:/meisai/ms/fig/bd2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/27771/Desktop/ms/latex/ms论文.tex:159: LaTeX Error: Cannot determine size of graphic in D:/meisai/ms/fig/bd2.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...[height=2.75in]{D:/meisai/ms/fig/bd2.eps}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 File: D:/meisai/ms/fig/bd2.eps Graphic file (type eps)
 <D:/meisai/ms/fig/bd2.eps>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1585,12 +1853,84 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 275.
 
 
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 263.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+[3]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 263.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 265.
+ (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 265.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 268.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 268.
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 273.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+<<<<<<< HEAD
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 292.
+(d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 19.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
+ (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+))
+
+Package lastpage Warning: Rerun to get the references right on input line 300.
+
+
+AED: lastpage setting LastPage
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 300.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6]
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 300.
+
+=======
 [6]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 275.
@@ -1635,6 +1975,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
+<<<<<<< HEAD
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 328.
+(d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+<<<<<<< HEAD
+[7]
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 300.
+
+=======
+[9]
+>>>>>>> 857c21cdcb8001af1b4b679dac0eefd0c00e0ff6
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
  (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
@@ -1644,9 +2010,21 @@ Package lastpage Warning: Rerun to get the references right on input line 312.
 
 
 AED: lastpage setting LastPage
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
 
 LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 312.
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+[8]
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 300.
+
+=======
+[10]
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
+>>>>>>> 857c21cdcb8001af1b4b679dac0eefd0c00e0ff6
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1654,7 +2032,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+<<<<<<< HEAD
 [9] (./ms论文.aux)
+=======
+<<<<<<< HEAD
+[9] (./ms论文.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `ms论文.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ms论文.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  5DCE5E48C81CF95F5FB7D0E993ED6C8F;6778.
+ ) 
+Here is how much of TeX's memory you used:
+ 15456 strings out of 476919
+ 225832 string characters out of 5825424
+ 832157 words of memory out of 5000000
+ 35038 multiletter control sequences out of 15000+600000
+ 471045 words of font info for 122 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 86i,13n,99p,396b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Error 1 (driver return code) generating output;
+file ms论文.pdf may not be valid.
+=======
+[11]
+>>>>>>> 857c21cdcb8001af1b4b679dac0eefd0c00e0ff6
 
 LaTeX Warning: There were undefined references.
 
@@ -1679,4 +2090,9 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  86i,13n,99p,383b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+<<<<<<< HEAD
 Output written on ms论文.pdf (11 pages).
+=======
+Output written on ms论文.pdf (14 pages).
+>>>>>>> b005f007c7562cc7d0fd2e46e2637087b81d7e5e
+>>>>>>> 857c21cdcb8001af1b4b679dac0eefd0c00e0ff6
