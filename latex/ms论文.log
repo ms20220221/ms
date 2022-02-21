@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 20:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  21 FEB 2022 20:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,7 +820,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 50.
+(Font)              scaled to size 14.4pt on input line 49.
 Missing character: There is no 随 ("968F) in font ntx-Regular-tlf-t1!
 Missing character: There is no 着 ("7740) in font ntx-Regular-tlf-t1!
 Missing character: There is no 个 ("4E2A) in font ntx-Regular-tlf-t1!
@@ -1512,7 +1512,7 @@ Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
 File: D:/meisai/ms/fig/gold.eps Graphic file (type eps)
 <D:/meisai/ms/fig/gold.eps>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 113.
+(Font)              scaled to size 10.0pt on input line 112.
 File: D:/meisai/ms/fig/Bitcoin.eps Graphic file (type eps)
 <D:/meisai/ms/fig/Bitcoin.eps>
 
@@ -1571,6 +1571,21 @@ File: D:/meisai/ms/fig/b6.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+File: D:/meisai/ms/fig/g61.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g61.eps>
+File: D:/meisai/ms/fig/b61.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b61.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: D:/meisai/ms/fig/g61.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g61.eps>
+File: D:/meisai/ms/fig/b61.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b61.eps>
+File: D:/meisai/ms/fig/g661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g661.eps>
+File: D:/meisai/ms/fig/b661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b661.eps>
 Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
 Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
 
@@ -1589,18 +1604,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 275.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 277.
- (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
-File: t1ntxtt.fd 2012/04/20 v3.1
-)
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 277.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 280.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 280.
+Overfull \vbox (259.22272pt too high) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1610,11 +1615,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 300.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 302.
+ (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 302.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 305.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 305.
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 304.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 329.
 (d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
@@ -1625,7 +1651,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]
+[10]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
  (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
@@ -1638,20 +1664,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10] (./ms论文.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+[11] (./ms论文.aux)
 Package rerunfilecheck Info: File `ms论文.out' has not changed.
 (rerunfilecheck)             Checksum: AC8F0C99C423CC99DC6D444D37D5ACD3;6470.
  ) 
 Here is how much of TeX's memory you used:
- 15276 strings out of 476919
- 220941 string characters out of 5825425
- 831157 words of memory out of 5000000
- 34886 multiletter control sequences out of 15000+600000
+ 15292 strings out of 476919
+ 221317 string characters out of 5825425
+ 829157 words of memory out of 5000000
+ 34898 multiletter control sequences out of 15000+600000
  468246 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,12n,99p,383b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,12n,99p,383b,2100s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ms论文.pdf (12 pages).
+Output written on ms论文.pdf (13 pages).

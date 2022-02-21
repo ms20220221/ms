@@ -32,6 +32,6 @@
 \contentsline {subsection}{\numberline {7.2}Sensitivity Analysis}{8}{subsection.7.2}%
 \contentsline {section}{\numberline {8}Conclusions}{8}{section.8}%
 \contentsline {section}{\numberline {9}A Memo}{8}{section.9}%
-\contentsline {section}{Appendices}{9}{section*.2}%
-\contentsline {section}{Appendix \numberline {A}First appendix}{9}{appendix.a.A}%
-\contentsline {section}{Appendix \numberline {B}Second appendix}{9}{appendix.a.B}%
+\contentsline {section}{Appendices}{10}{section*.2}%
+\contentsline {section}{Appendix \numberline {A}First appendix}{10}{appendix.a.A}%
+\contentsline {section}{Appendix \numberline {B}Second appendix}{10}{appendix.a.B}%

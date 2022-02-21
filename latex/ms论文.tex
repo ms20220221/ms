@@ -204,6 +204,39 @@ Truncated tail: After greater than a constant k, it quickly tends to 0 as a k-or
 By figure \ref{fig4}and \ref{fig5}, it can be seen that the first order difference data and the second order difference data are meaningful time series.
 Therefore,we use the same methods in the subsequent section.The analysis charts are as follows.
 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[height=2.5in]{D:/meisai/ms/fig/g61.eps}
+  \caption{First order differential autocorrelation diagram-gold}
+  \includegraphics[height=2.5in]{D:/meisai/ms/fig/b61.eps}
+\end{figure}
+\begin{figure}[htbp]
+  \caption{First order differential partial autocorrelation diagram-bitcoin} 
+  \includegraphics[width=3cm]{D:/meisai/ms/fig/g661.eps}
+  \caption{First order differential autocorrelation diagram-gold}
+  \includegraphics[width=3cm]{D:/meisai/ms/fig/b661.eps}
+  \caption{First order differential partial autocorrelation diagram-bitcoin} 
+\end{figure}
+
+\begin{figure}[!h]
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g62.eps}
+  \caption{Second order differential autocorrelation diagram-gold}
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b62.eps}
+  \caption{Second order differential partial autocorrelation diagram-bitcoin} 
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g661.eps}
+  \caption{Second order differential autocorrelation diagram-gold}
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b661.eps}
+  \caption{Second order differential partial autocorrelation diagram-bitcoin} 
+  \label{fig661}
+\end{figure}
+
+
+%R语言确定
+\subsubsection{R Language Determines the Optimal Parameters p, d, q}
+Given that only the price data as of the day can be used each day, i.e., 
+the training data used each day are inconsistent,
+it is not practical to determine the optimal parameters for the model through autocorrelation and partial autocorrelation plots, 
+so we use the auto.arima function in R language to automate the parameter determination.
 
 
 \subsubsection{Model Validating}
