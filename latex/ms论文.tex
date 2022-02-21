@@ -48,30 +48,49 @@ keyword1; keyword2
 
 \section{Introduction}
 \subsection{Background}
+As personal assets accumulate, more and more people are entering the investment market in order to preserve the value of their existing assets or to make them more valuable.
+However, we all know that investment products are often highly volatile,in orther words, it is difficult to predict.
+Among the many investment products, gold and bitcoin are the most popular.
+Bitcoin, in particular, has seen a rapid expansion in trading since its emergence.But its security and stability have been called into question by the huge price fluctuations.
+
+Obviously, with the gold and bitcoin investment boom, a substantially profitable portfolio for the average trader is difficult to achieve.
+It is essential to predict future trends in volatile assets based on daily and previous days' updated trading data.
+Therefore, traders propose to develop a model that uses only the past stream of daily prices 
+to date to determine each day if the trader should buy, hold, or sell their assets in their portfolio.
 随着个人资产的累计，越来越多的人进入投资市场，为了在使现有资产保值或更有价值。
-但我们都知道，投资类产品常有很强的波动性，which means它很难预测。
+但我们都知道，投资类产品常有很强的波动性，这意味着它很难预测。
 在众多投资产品中，黄金和比特币最受人关注。
 特别是比特币，自出现以来交易规模迅速扩张,但巨大的价格波动使其安全性和稳定性受到质疑。
 那么，在黄金和比特币投资热潮下，对普通交易者大幅度得利的投资组合很难实现。
 这是很重要的，根据每天和前几天更新的交易数据，来预测未来波动性资产的发展趋势。
-因此，交易者提出 to develop a model that uses only the past stream of daily prices 
-to date to determine each day if the trader should buy, hold, or sell their assets in their portfolio.
+因此，交易者提出 
 
 
 \subsection{Problem Statement}
-根据我们的理解，问题主要有以下几个要点：
+根据我们的理解，问题主要有以下几个要点：According to our understanding,our problem has few key points:
 \begin{enumerate}    %有序列表 
-  \item 用原始数据建立一个模型，分析黄金和比特币价值走向
-  \item 基于时间序列模型，预测未来波动性资产的走势
-  \item 解决利用动态规划实现利益最大化问题,同时兼顾风险
-  \item 确定交易者每天的交易决策以及交易行为，在有交易佣金的背景下
-  \item 证明我们提供了最优策略
-  \item Determine how sensitive the strategy is to transaction costs
+  \item 用原始数据建立一个模型，分析黄金和比特币价值走向Build a model with raw data to analyze the trend of gold and bitcoin values are going.
+  \item 基于时间序列模型，预测未来波动性资产的走势Forecasting future volatile asset movements based on time series models.
+  \item 解决利用动态规划实现利益最大化问题,同时兼顾风险Solving the problem of maximizing benefits using dynamic planning while taking risks into account.
+  \item 确定交易者每天的交易决策以及交易行为，在有交易佣金的背景下Determine the trader's daily trading decisions and trading behavior with trading commissions.
+  \item 证明我们提供了最优策略Prove that we provide the optimal strategy.
+  \item Determine how sensitive the strategy is to transaction costs.
 \end{enumerate}
 
 
 \subsection{Problem Analysis}
-
+After clarifying the problem, we believe that the ARIMA model has a great advantage over the traditional model in the problem of time series analysis.
+\textbf{Our work overview}
+\begin{itemize}    %无序列表
+  \item \textbf{We pre-process the raw data},including filtering the data, visualizing the data, and mining the time series.
+  
+  This part of the work can greatly improve the efficiency of modeling and analyzing volatile assets.
+  \item \textbf{We selected ARIMA for data prediction}
+  
+  Provided that ARIMA model is applies, we establish daily buy and sell, position transfer and investment ratios to maximize asset value.
+  \item \textbf{to prove the optimality of our strategy,}we set perturbation terms on the three criteria developed for buying and selling, position adjustment and portfolio to determine the optimal parameters.
+  \item Finally, we enumerate a series of results that \textbf{test the sensitivity to commissions.}
+\end{itemize}
 明确问题后，我们的认为ARIMA模型在时间序列分析问题上较传统模型有很大优势，
 工作概览如下：
 首先，我们对原始数据进行了预处理，包括对数据的筛选、使数据可视化、挖掘出时间序列。
@@ -82,10 +101,12 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 最后，我们枚举得到的一系列结果检验了对佣金的敏感性。
 
 
-
 \section{Assumption}
+\begin{enumerate}    %有序列表  
+  \item All cash is consumed at each purchase.
 
-
+  \item The price fluctuations of gold and bitcoin are independent.
+\end{enumerate}
 
 
 
@@ -93,7 +114,10 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 对于我们要解决的数据分析问题，数据的平稳性是我们的模型的基础。
 通常来说，原始数据中的不完整和异常数据可能会大大影响我们问题的分析效率和结果准确性。
 故，对数据的分析、预先处理是必不可少。
-
+For the problem we faced, 
+the stability of the data is the basis of our model.
+Generally speaking, incomplete and abnormal data in the raw data may greatly affect the efficiency of problem analysis and the accuracy of the results.
+For this reason, it is essential to analyze and pre-process the data.
 
 \subsection{Data Screening}
 We analyzed the raw data in the LBMA-GOLD.csv and BCHAIN-MKPRU.csv files,final data status is as follows:
@@ -120,12 +144,12 @@ we visualize the given data and draw figure\ref{fig1}and\ref{fig2}
   %\small
   \centering
   \subfigure[1]{
-  \includegraphics[width=0.9\columnwidth]{gold.eps}}
+  \includegraphics[width=0.9\columnwidth]{D:/meisai/ms/fig/gold.eps}}
   \caption{Gold price tendency} \label{fig1}
   %\hfill
   \centering
   \subfigure[2]{
-    \includegraphics[width=0.9\columnwidth]{Bitcoin.eps}}
+    \includegraphics[width=0.9\columnwidth]{D:/meisai/ms/fig/Bitcoin.eps}}
   \caption{Bitcoin price tendency} \label{fig2}
   \end{figure}
 
@@ -139,8 +163,8 @@ We perform stability test and white noise test on the raw data and processed dat
 First,we test the stability of the original data by comparing two methods, the image observation and the unit root test.
 \begin{figure}[!hb]
   \centering 
-  \includegraphics[height=2.75in]{fig3G.eps}
-  \includegraphics[height=2.75in]{fig3b.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3G.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3b.eps}
   \caption{Raw data visualization} \label{fig3}
 \end{figure}
 Testing unit root，and result is shown below:
@@ -157,8 +181,8 @@ and the two methods abrove are also used to test.The result is as follows.\ref{f
 Visualizing the first order difference data is illustrated in Figure 4
 \begin{figure}[!hb]
   \centering 
-  \includegraphics[height=2.75in]{gd1.eps}
-  \includegraphics[height=2.75in]{bd1.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd1.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/bd1.eps}
   \caption{first order difference data} \label{fig4}
 \end{figure}
 
@@ -175,8 +199,8 @@ Thirdly,utilizing second order difference we obtained second order difference da
 The result is shown in\ref{fig5}.
 \begin{figure}[!h]
   \centering 
-  \includegraphics[height=2.75in]{gd2.eps}
-  \includegraphics[height=2.75in]{bd2.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd2.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/bd2.eps}
   \caption{second order difference data} \label{fig5}
 \end{figure}
 
@@ -237,19 +261,26 @@ MA is "sliding average ",q is the number of sliding average terms, and d is the 
 Although the word "difference" does not appear in the English name of ARIMA, it is a key step to analyse time series.
 %补充公式
 
-
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 $\left(1-\sum_{i=1}^{p} L^i \right)(1-L)^d X_t=\left(1+\sum_{i=1}^{q}\theta_i L^i \right)\varepsilon_t$
 
-
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
 %确定系数pq
 \subsubsection{Determining the parameters p, q }
 We take advantage of the autocorrelation and partial autocorrelation plots to find out the parameters p, q.
 The following figures show the the format of autocorrelation and partial autocorrelation plots.
 \begin{figure}[!h]
   \centering 
-  \includegraphics[height=2.75in]{g6.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/g6.eps}
   \caption{Autocorrelation diagram}
-  \includegraphics[height=2.75in]{b6.eps}
+  \includegraphics[height=2.75in]{D:/meisai/ms/fig/b6.eps}
   \caption{Partial autocorrelation diagram} \label{fig6}
 \end{figure}
 
@@ -263,26 +294,26 @@ Therefore,we use the same methods in the subsequent section.The analysis charts 
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[height=2.5in]{g61.eps}
+  \includegraphics[height=2.5in]{D:/meisai/ms/fig/g61.eps}
   \caption{First order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.5in]{b61.eps}
+  \includegraphics[height=2.5in]{D:/meisai/ms/fig/b61.eps}
 \end{figure}
 \begin{figure}[htbp]
   \caption{First order differential partial autocorrelation diagram-bitcoin} 
-  \includegraphics[width=3cm]{g661.eps}
+  \includegraphics[width=3cm]{D:/meisai/ms/fig/g661.eps}
   \caption{First order differential autocorrelation diagram-gold}
-  \includegraphics[width=3cm]{b661.eps}
+  \includegraphics[width=3cm]{D:/meisai/ms/fig/b661.eps}
   \caption{First order differential partial autocorrelation diagram-bitcoin} 
 \end{figure}
 
 \begin{figure}[!h]
-  \includegraphics[height=2.4in]{g62.eps}
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g62.eps}
   \caption{Second order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.4in]{b62.eps}
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b62.eps}
   \caption{Second order differential partial autocorrelation diagram-bitcoin} 
-  \includegraphics[height=2.4in]{g661.eps}
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g661.eps}
   \caption{Second order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.4in]{b661.eps}
+  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b661.eps}
   \caption{Second order differential partial autocorrelation diagram-bitcoin} 
   \label{fig661}
 \end{figure}
@@ -392,7 +423,7 @@ We divide the expected return by the following half standard deviation yields th
 When the Sharpe ratio is maximum, it undoubtedly means that the current proportion of the portfolio is optimal
 
   根据“每次购买时消耗所有现金”和“黄金和比特币的价格波动相互独立”这两个假设，求解最优的投资比例可以简化为如下的一个优化问题，我们可以利用计算机求出它的数值解。
-Based on the assumptions that "All cash is consumed at each purchase" and "The price fluctuations of gold and bitcoin are independent of each other", 
+Based on the assumptions that "All cash is consumed at each purchase" and "The price fluctuations of gold and bitcoin are independent", 
 We simplify the problem of solving the optimal investment ratio as an optimization problem.
 And we can use the computer to find its numerical solution.
 
@@ -512,13 +543,6 @@ In summary, it can be seen that the model is sensitive to trading commissions.
   \item The model forecast of gold changes needs to be improved and the profitability level is relatively low.
   \item The model performs well when the risk appetite indicator is 0.05-0.45 and can be considered an average risk taker, but otherwise the model underperforms.
 \end{enumerate}
-
-
-
-
-\subsection{Sensitivity Analysis}
-
-
 
 
 
