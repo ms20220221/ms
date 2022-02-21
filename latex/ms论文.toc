@@ -2,34 +2,31 @@
 \contentsline {subsection}{\numberline {1.1}Background}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Problem Statement}{2}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Problem Analysis}{2}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Assumption}{2}{section.2}%
-\contentsline {section}{\numberline {3}Data Processing}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Data Screening}{2}{subsection.3.1}%
+\contentsline {section}{\numberline {2}Assumption}{3}{section.2}%
+\contentsline {section}{\numberline {3}Data Processing}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data Screening}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Data Visualization}{3}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Mining Time Series}{3}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Stability Test}{4}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}White Noise Test}{5}{subsubsection.3.3.2}%
-\contentsline {section}{\numberline {4}PartⅠ：Model Development }{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Time Series Model ARIMA - Data Forecasting }{6}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Model Theory}{6}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Determining the parameters p, q }{6}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.2}White Noise Test}{6}{subsubsection.3.3.2}%
+\contentsline {section}{\numberline {4}PartⅠ：Model Development }{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Time Series Model ARIMA - Data Forecasting }{7}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Model Theory}{7}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Determining the parameters p, q }{7}{subsubsection.4.1.2}%
 \contentsline {subsubsection}{\numberline {4.1.3}R Language Determines the Optimal Parameters p, d, q}{7}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}White noise test for model residuals}{7}{subsubsection.4.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.5}Model Prediction and Visualization}{9}{subsubsection.4.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.6}Batch prediction of data}{9}{subsubsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.2}Trading Strategy Model - Dynamic Programming }{9}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Expected return on assets}{9}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}当前的资产持有情况Current Asset Holding}{10}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Determination of the final act of transaction}{11}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}其他说明Additional Explanation}{11}{subsubsection.4.2.4}%
-\contentsline {section}{\numberline {5}PartⅡ:Strategy Evaluation}{11}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Set Perturbation Terms }{11}{subsection.5.1}%
-\contentsline {section}{\numberline {6}PartⅢ:Sensitivity Analysis}{12}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Assuming Changes In Commission}{12}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Evaluate of the Model}{12}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Strengths and weaknesses}{12}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Sensitivity Analysis}{13}{subsection.7.2}%
-\contentsline {section}{\numberline {8}A Memo}{13}{section.8}%
-\contentsline {section}{Appendices}{13}{section*.2}%
-\contentsline {section}{Appendix \numberline {A}First appendix}{13}{appendix.a.A}%
-\contentsline {section}{Appendix \numberline {B}Second appendix}{13}{appendix.a.B}%
+\contentsline {subsubsection}{\numberline {4.1.4}White noise test for model residuals}{8}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Model Prediction and Visualization}{8}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Batch prediction of data}{10}{subsubsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.2}Trading Strategy Model - Dynamic Programming }{10}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Expected return on assets}{10}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}当前的资产持有情况Current Asset Holding}{11}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Determination of the final act of transaction}{12}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}其他说明Additional Explanation}{12}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}结果}{12}{subsubsection.4.2.5}%
+\contentsline {section}{\numberline {5}PartⅡ:Strategy Evaluation}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Set Perturbation Terms }{13}{subsection.5.1}%
+\contentsline {section}{\numberline {6}PartⅢ:Sensitivity Analysis}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Assuming Changes In Commission}{13}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Evaluate of the Model}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Strengths and weaknesses}{13}{subsection.7.1}%
+\contentsline {section}{\numberline {8}A Memo}{\thepage }{section.8}%
