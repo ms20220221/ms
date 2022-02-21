@@ -1,13 +1,13 @@
 
 \documentclass{mcmthesis}
 \mcmsetup{CTeX = true,   % 使用 CTeX 套装时，设置为 true
-        tcn = 0000, problem = A,
+        tcn = 2227906, problem = C,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = true, abstract = true}
 \usepackage{newtxtext}%\usepackage{palatino}
 \usepackage{lipsum}
 \usepackage{subfigure}
-\title{The \LaTeX{} Template for MCM Version \MCMversion}
+\title{A Short-Term Arbitrage Model of Two Risk Portfolio}
 \author{\small \href{https://www.latexstudio.net/}
   {\includegraphics[width=7cm]{mcmthesis-logo}}}
 \date{\today}
@@ -18,6 +18,7 @@
 
 \begin{keywords}
 % 关键词
+短期套利，两风险资产组合，夏普比率，交易佣金，
 keyword1; keyword2
 
 
@@ -126,20 +127,24 @@ We perform stability test and white noise test on the raw data and processed dat
 
 \subsubsection{Stability Test}
 First,we test the stability of the original data by comparing two methods, the image observation and the unit root test.
-
 \begin{figure}[!hb]
   \centering 
   \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3G.eps}
   \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3b.eps}
   \caption{Raw data visualization} \label{fig3}
 \end{figure}
-
-
 Testing unit root，and result is shown below:
+Gold：Dickey-Fuller = -2.4368, Lag order = 10, p-value = 0.3934<0.1
+Bitcoin：Dickey-Fuller = -1.4395, Lag order = 12, p-value = 0.8156<0.1
 
-%一阶差分
+The raw data, the image mean varies with time and the unit root test p>0.05, so it is an unstable time series.
+We then perform first order differencing on the original data to obtain updated data.
+
+
+%yijiechafen
 Secondly,the first-order difference data is obtained according to the first-order difference of the original data, 
 and the two methods abrove are also used to test.The result is as follows.\ref{fig4}
+Visualizing the first order difference data is illustrated in Figure 4
 \begin{figure}[!hb]
   \centering 
   \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd1.eps}
@@ -147,6 +152,12 @@ and the two methods abrove are also used to test.The result is as follows.\ref{f
   \caption{first order difference data} \label{fig4}
 \end{figure}
 
+Testing unit root，and result is shown below:
+
+Gold：Dickey-Fuller = -11.357, Lag order = 10, p-value <0.01
+Bitcoin：Dickey-Fuller = -11.633, Lag order = 12, p-value <0.01
+
+It can be concluded that the first-order difference data, with image mean essentially zero and unit root test p<0.05, is a stable time series.
 
 
 %二阶
@@ -159,6 +170,15 @@ The result is shown in\ref{fig5}.
   \caption{second order difference data} \label{fig5}
 \end{figure}
 
+Testing unit root，and result is shown below:
+
+Gold：Dickey-Fuller = -20.351, Lag order = 10, p-value <0.01
+Bitcoin：Dickey-Fuller = -18.999, Lag order = 12, p-value <0.01
+
+It can be seen that the image mean of the second order difference data is basically 0 and the unit root test p<0.05, which means it is a stable time series.
+
+\textbf{Final conclusion:} we cannot use the original data directly for time series modeling because it is unstable, and need to use its first-order difference or second-order difference data for time series model.
+
 
 %白噪音检验
 \subsubsection{White Noise Test}
@@ -168,9 +188,31 @@ So We chose Ljung-Box test to meet the demands.
 
 The first step is to examine the raw data,The test yielded the following graph
 
-The second step,we test first order difference data,result can be seen below
+Gold：X-squared = 7495.2, df = 6, p-value < 2.2e-16
+X-squared = 14834, df = 12, p-value < 2.2e-16
+X-squared = 22018, df = 18, p-value < 2.2e-16
+Bitcoin：X-squared = 10716, df = 6, p-value < 2.2e-16
+X-squared = 20966, df = 12, p-value < 2.2e-16
+X-squared = 30765, df = 18, p-value < 2.2e-16
+
+Raw data p<0.05, not white noise
+
+The second step,we test first order difference data,result can be seen below:
+
+Gold：X-squared = 35.268, df = 6, p-value = 3.824e-06
+X-squared = 47.324, df = 12, p-value = 4.097e-06
+X-squared = 56.106, df = 18, p-value = 8.576e-06
+Bitcoin：X-squared = 21.896, df = 6, p-value = 0.001265
+X-squared = 63.942, df = 12, p-value = 4.275e-09
+X-squared = 71.685, df = 18, p-value = 2.339e-08
+
+First order differential data p<0.05, not white noise
 
 Third,we test second order difference data,result is shown below
+
+Second-order differential data p<0.05, not white noise
+\textbf{Final conclusion: }
+The data come from a professional data statistics center and should not be white noise, and the test results prove it. They are not white noise.
 
 
 %第一问
@@ -184,6 +226,18 @@ In ARIMA(p, d, q),AR is "autoregressive", p is the number of autoregressive term
 MA is "sliding average ",q is the number of sliding average terms, and d is the number of differences (order) made to make it a smooth series.
 Although the word "difference" does not appear in the English name of ARIMA, it is a key step to analyse time series.
 %补充公式
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+$\left(1-\sum_{i=1}^{p} L^i \right)(1-L)^d X_t=\left(1+\sum_{i=1}^{q}\theta_i L^i \right)\varepsilon_t$
+
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
+=======
+>>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
 %确定系数pq
 \subsubsection{Determining the parameters p, q }
 We take advantage of the autocorrelation and partial autocorrelation plots to find out the parameters p, q.
@@ -240,8 +294,7 @@ so we use the auto.arima function in R language to automate the parameter determ
 
 The best model information was obtained after using the auto.arima function with all given data.
 And the model is as follows:
-
-
+Gold:p=4，d=1，q=5;ARIMA(4,1,5)                          Bitcoin:p=2，d=1，q=1;ARIMA(2,1,1) 
 
 %模型残差白噪声检验
 \subsubsection{White noise test for model residuals}
@@ -249,27 +302,21 @@ It is usually assumed that the model residuals of a reasonable model should be w
 logically we conducted a white noise test on the residuals of the resulting model.
 The results are as follows.
 
+Gold：X-squared = 4.9084, df = 7.1428, p-value = 0.6862
+Bitcoin：X-squared = 1.3484, df = 7.5099, p-value = 0.9919
+We can see model residuals p>0.05, is white noise.Our model is valid.
 
 
 \subsubsection{Model Prediction and Visualization}
 To make the results more intuitive,we use the model to calculate and predict the historical data. 
 And the visualization results are shown in the figure
-
-
-The reason for the large overlap of lines in Figure 6 is that the data sample is too large.
-So we choose 100 of these samples and make graph7.
-
-\subsubsection{Batch prediction of data}   %去未来七天
-Based on the price data as of the day,we predicted gold and bitcoin price for the next 7 days 
-and the same automated arima modeling is performed using the auto.arima function to obtain the price data for the next 7 days.
-By analyzing the forecast data, we observed a roughly linear variation. 
-Then,we integrated these data using linear regression to clarity the future price trend 
-and fitted slope quantifies the trend to make the better investment decisions.
-
-
+%chatu
 
 The reason for the large overlap of lines in Figure 6 is that the data sample is too large.
 So we choose 100 of these samples and make graph7.
+%插图
+The model fits well apparently from the images.
+
 
 \subsubsection{Batch prediction of data}   %去未来七天
 Based on the price data as of the day,we predicted gold and bitcoin price for the next 7 days 
