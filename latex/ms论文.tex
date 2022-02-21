@@ -126,20 +126,24 @@ We perform stability test and white noise test on the raw data and processed dat
 
 \subsubsection{Stability Test}
 First,we test the stability of the original data by comparing two methods, the image observation and the unit root test.
-
 \begin{figure}[!hb]
   \centering 
   \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3G.eps}
   \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3b.eps}
   \caption{Raw data visualization} \label{fig3}
 \end{figure}
-
-
 Testing unit root，and result is shown below:
+Gold：Dickey-Fuller = -2.4368, Lag order = 10, p-value = 0.3934<0.1
+Bitcoin：Dickey-Fuller = -1.4395, Lag order = 12, p-value = 0.8156<0.1
 
-%一阶差分
+The raw data, the image mean varies with time and the unit root test p>0.05, so it is an unstable time series.
+We then perform first order differencing on the original data to obtain updated data.
+
+
+%yijiechafen
 Secondly,the first-order difference data is obtained according to the first-order difference of the original data, 
 and the two methods abrove are also used to test.The result is as follows.\ref{fig4}
+Visualizing the first order difference data is illustrated in Figure 4
 \begin{figure}[!hb]
   \centering 
   \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd1.eps}
@@ -147,6 +151,12 @@ and the two methods abrove are also used to test.The result is as follows.\ref{f
   \caption{first order difference data} \label{fig4}
 \end{figure}
 
+Testing unit root，and result is shown below:
+
+Gold：Dickey-Fuller = -11.357, Lag order = 10, p-value <0.01
+Bitcoin：Dickey-Fuller = -11.633, Lag order = 12, p-value <0.01
+
+It can be concluded that the first-order difference data, with image mean essentially zero and unit root test p<0.05, is a stable time series.
 
 
 %二阶
@@ -159,6 +169,15 @@ The result is shown in\ref{fig5}.
   \caption{second order difference data} \label{fig5}
 \end{figure}
 
+Testing unit root，and result is shown below:
+
+Gold：Dickey-Fuller = -20.351, Lag order = 10, p-value <0.01
+Bitcoin：Dickey-Fuller = -18.999, Lag order = 12, p-value <0.01
+
+It can be seen that the image mean of the second order difference data is basically 0 and the unit root test p<0.05, which means it is a stable time series.
+
+\textbf{Final conclusion:} we cannot use the original data directly for time series modeling because it is unstable, and need to use its first-order difference or second-order difference data for time series model.
+
 
 %白噪音检验
 \subsubsection{White Noise Test}
@@ -168,9 +187,31 @@ So We chose Ljung-Box test to meet the demands.
 
 The first step is to examine the raw data,The test yielded the following graph
 
-The second step,we test first order difference data,result can be seen below
+Gold：X-squared = 7495.2, df = 6, p-value < 2.2e-16
+X-squared = 14834, df = 12, p-value < 2.2e-16
+X-squared = 22018, df = 18, p-value < 2.2e-16
+Bitcoin：X-squared = 10716, df = 6, p-value < 2.2e-16
+X-squared = 20966, df = 12, p-value < 2.2e-16
+X-squared = 30765, df = 18, p-value < 2.2e-16
+
+Raw data p<0.05, not white noise
+
+The second step,we test first order difference data,result can be seen below:
+
+Gold：X-squared = 35.268, df = 6, p-value = 3.824e-06
+X-squared = 47.324, df = 12, p-value = 4.097e-06
+X-squared = 56.106, df = 18, p-value = 8.576e-06
+Bitcoin：X-squared = 21.896, df = 6, p-value = 0.001265
+X-squared = 63.942, df = 12, p-value = 4.275e-09
+X-squared = 71.685, df = 18, p-value = 2.339e-08
+
+First order differential data p<0.05, not white noise
 
 Third,we test second order difference data,result is shown below
+
+Second-order differential data p<0.05, not white noise
+\textbf{Final conclusion: }
+The data come from a professional data statistics center and should not be white noise, and the test results prove it. They are not white noise.
 
 
 %第一问
