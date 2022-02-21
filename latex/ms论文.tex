@@ -322,11 +322,51 @@ $\beta $越大，表示投资者越保守，买入的限制更严格，卖出的
 
 \subsubsection{当前的资产持有情况}
 在确定完资产的收益情况之后，我们还必须考虑当前的资产配置情况，才能确定最终购买何种资产、卖出何种资产。
+根据“每次购买时消耗所有现金”的假设，我们不可能同时持有现金、黄金、比特币，也不可能同时不持有任何资产。
+因此一共有$2^3-2=6$种可能的情况，分别是：(实心圆表示持有该资产，空心圆表示不持有该资产)
+\begin{tabular}{c c c}
+  \hline
+  cash&gold&bitcoin\\
+  \hline
+  \hline
+  $\bullet$ & $\circ$  &  $\circ$\\
+  \hline
+  $\bullet$ & $\circ$  &  $\bullet $\\
+  \hline
+  $\bullet$ & $\bullet $  &  $\circ  $\\
+  \hline
+  $\circ $ & $\circ$  &  $\bullet $\\
+  \hline
+  $\circ $ & $\bullet $  &  $\circ  $\\
+  \hline
+  $\circ $ & $\bullet $  &  $\bullet   $\\
+  \hline
+  \end{tabular}
 
-
-\subsubsection{Positioning Standard Identification}
-
-\subsubsection{Daily Portfolio Determinations}
+\subsubsection{最终交易行为的确定}
+每天的黄金和比特币的预期收益都有上涨、下跌、稳定三种情况，当他们组合在一起时共有9种情况。而每天资产的初始状态，正如上
+一小节所指出的，有6种情况。因此，最终的交易行为有54种情况。幸运的是，这54种情况可以被下面的6种情况概括：
+\begin{enumerate}
+  \item one maintain,the other appreciate:
+  在这种情况下，如果有现金就用现金全部买入升值的资产。如果没有现金就不进行购买
+  \item one maintain,the other depreciate:
+  在这种情况下，如果持有该贬值资产的话就全额卖出
+  \item one appreciate,the other depreciate:
+  在这种情况下，首先全额卖出贬值资产，然后将获得的全部现金买入升值资产
+  \item both maintain:
+  不进行任何交易
+  \item both appreciate:
+  如4.2.1种所说，两个资产的预期收益同时上涨时，需要根据夏普比率确定最优的资产组合。如果此时只持有现金一种资产，那么
+  我们可以直接根据最优比例购买两种资产。而如果此时持有黄金、比特币中的任何一种或者同时持有两种时，我们就要决定是否
+  还需要将比例调整为最优比例，毕竟每次调整都需要不少佣金。为了简化模型，我们根据经验给出了调仓的标准：如果调仓时两种
+  资产同时变动的比例超过百分之10，就调整为最优比例，否则就保持不变
+  \item both depreciate:
+  同时卖出两种资产，这之后我们只拥有现金一种资产
+\end{enumerate}
+\subsubsection{其他说明}
+\begin{itemize}
+  \item 卖出标准除了预期收益
+\end{itemize}
 
 
 
