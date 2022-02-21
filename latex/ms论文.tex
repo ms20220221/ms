@@ -120,12 +120,12 @@ we visualize the given data and draw figure\ref{fig1}and\ref{fig2}
   %\small
   \centering
   \subfigure[1]{
-  \includegraphics[width=0.9\columnwidth]{D:/meisai/ms/fig/gold.eps}}
+  \includegraphics[width=0.9\columnwidth]{gold.eps}}
   \caption{Gold price tendency} \label{fig1}
   %\hfill
   \centering
   \subfigure[2]{
-    \includegraphics[width=0.9\columnwidth]{D:/meisai/ms/fig/Bitcoin.eps}}
+    \includegraphics[width=0.9\columnwidth]{Bitcoin.eps}}
   \caption{Bitcoin price tendency} \label{fig2}
   \end{figure}
 
@@ -139,8 +139,8 @@ We perform stability test and white noise test on the raw data and processed dat
 First,we test the stability of the original data by comparing two methods, the image observation and the unit root test.
 \begin{figure}[!hb]
   \centering 
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3G.eps}
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/fig3b.eps}
+  \includegraphics[height=2.75in]{fig3G.eps}
+  \includegraphics[height=2.75in]{fig3b.eps}
   \caption{Raw data visualization} \label{fig3}
 \end{figure}
 Testing unit root，and result is shown below:
@@ -157,8 +157,8 @@ and the two methods abrove are also used to test.The result is as follows.\ref{f
 Visualizing the first order difference data is illustrated in Figure 4
 \begin{figure}[!hb]
   \centering 
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd1.eps}
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/bd1.eps}
+  \includegraphics[height=2.75in]{gd1.eps}
+  \includegraphics[height=2.75in]{bd1.eps}
   \caption{first order difference data} \label{fig4}
 \end{figure}
 
@@ -175,8 +175,8 @@ Thirdly,utilizing second order difference we obtained second order difference da
 The result is shown in\ref{fig5}.
 \begin{figure}[!h]
   \centering 
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/gd2.eps}
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/bd2.eps}
+  \includegraphics[height=2.75in]{gd2.eps}
+  \includegraphics[height=2.75in]{bd2.eps}
   \caption{second order difference data} \label{fig5}
 \end{figure}
 
@@ -237,26 +237,19 @@ MA is "sliding average ",q is the number of sliding average terms, and d is the 
 Although the word "difference" does not appear in the English name of ARIMA, it is a key step to analyse time series.
 %补充公式
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 $\left(1-\sum_{i=1}^{p} L^i \right)(1-L)^d X_t=\left(1+\sum_{i=1}^{q}\theta_i L^i \right)\varepsilon_t$
 
-=======
->>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
-=======
->>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
-=======
->>>>>>> e0d6d6aa972c268925f53c491cc6a08ca18daf0e
+
 %确定系数pq
 \subsubsection{Determining the parameters p, q }
 We take advantage of the autocorrelation and partial autocorrelation plots to find out the parameters p, q.
 The following figures show the the format of autocorrelation and partial autocorrelation plots.
 \begin{figure}[!h]
   \centering 
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/g6.eps}
+  \includegraphics[height=2.75in]{g6.eps}
   \caption{Autocorrelation diagram}
-  \includegraphics[height=2.75in]{D:/meisai/ms/fig/b6.eps}
+  \includegraphics[height=2.75in]{b6.eps}
   \caption{Partial autocorrelation diagram} \label{fig6}
 \end{figure}
 
@@ -270,26 +263,26 @@ Therefore,we use the same methods in the subsequent section.The analysis charts 
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[height=2.5in]{D:/meisai/ms/fig/g61.eps}
+  \includegraphics[height=2.5in]{g61.eps}
   \caption{First order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.5in]{D:/meisai/ms/fig/b61.eps}
+  \includegraphics[height=2.5in]{b61.eps}
 \end{figure}
 \begin{figure}[htbp]
   \caption{First order differential partial autocorrelation diagram-bitcoin} 
-  \includegraphics[width=3cm]{D:/meisai/ms/fig/g661.eps}
+  \includegraphics[width=3cm]{g661.eps}
   \caption{First order differential autocorrelation diagram-gold}
-  \includegraphics[width=3cm]{D:/meisai/ms/fig/b661.eps}
+  \includegraphics[width=3cm]{b661.eps}
   \caption{First order differential partial autocorrelation diagram-bitcoin} 
 \end{figure}
 
 \begin{figure}[!h]
-  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g62.eps}
+  \includegraphics[height=2.4in]{g62.eps}
   \caption{Second order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b62.eps}
+  \includegraphics[height=2.4in]{b62.eps}
   \caption{Second order differential partial autocorrelation diagram-bitcoin} 
-  \includegraphics[height=2.4in]{D:/meisai/ms/fig/g661.eps}
+  \includegraphics[height=2.4in]{g661.eps}
   \caption{Second order differential autocorrelation diagram-gold}
-  \includegraphics[height=2.4in]{D:/meisai/ms/fig/b661.eps}
+  \includegraphics[height=2.4in]{b661.eps}
   \caption{Second order differential partial autocorrelation diagram-bitcoin} 
   \label{fig661}
 \end{figure}
