@@ -59,8 +59,7 @@ We calculate the difference of raw data,depending on which to
 \begin{keywords}
 % 关键词
 短期套利，两风险资产组合，夏普比率，交易佣金，均值方差模型，
-keyword1; keyword2
-
+Short-term Arbitrage；Two-risk Asset Portfolio；Sharpe Ratio;Trading Commission;ARIMA;Average Value-square Difference Model
 
 \end{keywords}
 \end{abstract}
@@ -209,6 +208,7 @@ First,we test the stability of the original data by comparing two methods, the i
 \end{figure}
 Testing unit root，and result is shown below:
 Gold：Dickey-Fuller = -2.4368, Lag order = 10, p-value = 0.3934<0.1
+
 Bitcoin：Dickey-Fuller = -1.4395, Lag order = 12, p-value = 0.8156<0.1
 
 The raw data, the image mean varies with time and the unit root test p>0.05, so it is an unstable time series.
@@ -229,6 +229,7 @@ Visualizing the first order difference data is illustrated in Figure 4
 Testing unit root，and result is shown below:
 
 Gold：Dickey-Fuller = -11.357, Lag order = 10, p-value <0.01
+
 Bitcoin：Dickey-Fuller = -11.633, Lag order = 12, p-value <0.01
 
 It can be concluded that the first-order difference data, with image mean essentially zero and unit root test p<0.05, is a stable time series.
@@ -247,6 +248,7 @@ The result is shown in\ref{fig5}.
 Testing unit root，and result is shown below:
 
 Gold：Dickey-Fuller = -20.351, Lag order = 10, p-value <0.01
+
 Bitcoin：Dickey-Fuller = -18.999, Lag order = 12, p-value <0.01
 
 It can be seen that the image mean of the second order difference data is basically 0 and the unit root test p<0.05, which means it is a stable time series.
@@ -263,21 +265,32 @@ So We chose Ljung-Box test to meet the demands.
 The first step is to examine the raw data,The test yielded the following graph
 
 Gold：X-squared = 7495.2, df = 6, p-value < 2.2e-16
+
 X-squared = 14834, df = 12, p-value < 2.2e-16
+
 X-squared = 22018, df = 18, p-value < 2.2e-16
+
 Bitcoin：X-squared = 10716, df = 6, p-value < 2.2e-16
+
 X-squared = 20966, df = 12, p-value < 2.2e-16
+
 X-squared = 30765, df = 18, p-value < 2.2e-16
+
 
 Raw data p<0.05, not white noise
 
 The second step,we test first order difference data,result can be seen below:
 
 Gold：X-squared = 35.268, df = 6, p-value = 3.824e-06
+
 X-squared = 47.324, df = 12, p-value = 4.097e-06
+
 X-squared = 56.106, df = 18, p-value = 8.576e-06
+
 Bitcoin：X-squared = 21.896, df = 6, p-value = 0.001265
+
 X-squared = 63.942, df = 12, p-value = 4.275e-09
+
 X-squared = 71.685, df = 18, p-value = 2.339e-08
 
 First order differential data p<0.05, not white noise
@@ -690,12 +703,18 @@ And you need to be aware that our predictions are not necessarily accurate,no co
 
 
 \begin{thebibliography}{99}
-\bibitem{1} D.~E. KNUTH   The \TeX{}book  the American
-Mathematical Society and Addison-Wesley
+\bibitem{1} Contreras, J. ,  Espinola, R. ,  Nogales, F. J. , &  Conejo, A. J. . (2003). Arima models to predict next-day electricity prices. IEEE Transactions on Power Systems, 18(3), 1014-1020.
 Publishing Company , 1984-1986.
-\bibitem{2}Lamport, Leslie,  \LaTeX{}: `` A Document Preparation System '',
-Addison-Wesley Publishing Company, 1986.
-\bibitem{3}\url{https://www.latexstudio.net/}
+\bibitem{2} Conejo, A. J. ,  Plazas, M. A. ,  Espinola, R. , &  Molina, A. B. . (2005). Day-ahead electricity price forecasting using the wavelet transform and arima models. IEEE Transactions on Power Systems, 20(2), 1035-1042.
+\bibitem{3}Williams, B. M. , &  Hoel, L. A. . (2003). Modeling and forecasting vehicular traffic flow as a seasonal arima process: theoretical basis and empirical results. Journal of Transportation Engineering, 129(6), 664-672.
+\bibitem{4}Conejo, A. J. ,  Plazas, M. A. ,  Espinola, R. , &  Molina, A. B. . (2005). Day-ahead electricity price forecasting using the wavelet transform and arima models. IEEE Transactions on Power Systems, 20(2), 1035-1042.
+\bibitem{5}Partachi, I. ,  Anghel, M. G. , C Sacală, &  Jureschi, I. . (2015). The markowitz model.
+\bibitem{6}Love, & J. (1979). A model of trade diversification based on the markowitz model of portfolio analysis. Journal of Development Studies, 15(2), 233-241.
+\bibitem{7}Evstigneev, I. V. ,  Hens, T. , & Schenk-Hoppé, Klaus Reiner. (2015). Mean-variance portfolio analysis: the markowitz model. Springer International Publishing, 10.1007/978-3-319-16571-4(Chapter 2), 11-18.
+\bibitem{8}Farlane, D. , &  Horowitz, I. . (1967). Risk and the business decision : management and the markowitz model. Business Horizons, 10(2), 81-90.
+\bibitem{9}Evstigneev, I. V. ,  Hens, T. , & KR Schenk-Hoppé. (2015). Mean-variance portfolio analysis: the markowitz model. Springer Texts in Business and Economics.
+\bibitem{10}Gan, T. Y. . (2010). A time series model for estimating the weekly winter maximum temperature of northwest territories. Journal of Applied Meteorology, 34(4), 847-860.
+\bibitem{11}Singleton, K. J. . (2004). Asset prices in a time-series model with disparately informed. Social Science Electronic Publishing.
 \end{thebibliography}
 
 \begin{appendices}
@@ -710,15 +729,7 @@ In addition, your report must include a letter to the Chief Financial Officer (C
 
 
 
-\begin{letter}{Dear, Mr. Alpha Chiang}
 
-\vspace{\parskip}
-
-Sincerely yours,
-
-Your friends
-
-\end{letter}
 Here are simulation programmes we used in our model as follow.\\
 
 \textbf{\textcolor[rgb]{0.98,0.00,0.00}{Input matlab source:}}
