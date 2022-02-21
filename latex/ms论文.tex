@@ -63,7 +63,7 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 \begin{enumerate}    %有序列表 
   \item 用原始数据建立一个模型，分析黄金和比特币价值走向
   \item 基于时间序列模型，预测未来波动性资产的走势
-  \item 解决利用动态规划实现利益最大化问题
+  \item 解决利用动态规划实现利益最大化问题,同时兼顾风险
   \item 确定交易者每天的交易决策以及交易行为，在有交易佣金的背景下
   \item 证明我们提供了最优策略
   \item Determine how sensitive the strategy is to transaction costs
@@ -98,7 +98,17 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 \subsection{Data Screening}
 We analyzed the raw data in the LBMA-GOLD.csv and BCHAIN-MKPRU.csv files,final data status is as follows:
 
-
+\begin{table}[]
+  \begin{tabular}{ccc}
+               & gold    & bitcoin  \\
+  count        & 1255    & 1826     \\
+  mean         & 1464.54 & 12206.06 \\
+  std          & 249.29  & 14043.89 \\
+  min          & 1125.7  & 594.08   \\
+  max          & 2067.15 & 11084.73 \\
+  missing data & 10      & 0       
+  \end{tabular}
+  \end{table}
 %插入图片
 For the missing data in LBMA-GOLD.csv, we fill in the date according to the average of the day before and the day after.
 
@@ -470,35 +480,42 @@ So there are a total of $2^3-2=6$ possible scenarios, to be specific: (solid cir
 
 \section{PartⅡ:Strategy Evaluation}
 \subsection{Set Perturbation Terms }%to determine optimal parameters }
+To demonstrate strategy optimality,firstly we add small perturbations to the buy and sell criteria.
 
-\subsection{Comparison Illustrates the Best Strategy}
+Then,we make minor adjustments to the buy and sell criteria, invoking the model (at this point the risk appetite indicator is 0.2) to calculate the final asset size,.
 
-
-
+Finally，observe the asset stability.We found In the range of -0.25 to 0.25, the final asset is basically smooth and there is no sudden drop, which shows that the model stability is relatively reliable.
+result shown in the figure.
+%插图
 
 \section{PartⅢ:Sensitivity Analysis}
 \subsection{Assuming Changes In Commission}
+We set the commission percentage of gold as a, the commission percentage of bitcoin as b, and the final asset as f USD. 
+After we kept adjusting the commission rate, we obtained the final assets under different commission rates, and the results are shown in the figure.%ref
 
-\subsection{Visualization Results}%Analysis ensitivity}
+\textbf{Final conclusion}
+Both the gold commission ratio a and the bitcoin commission ratio b will significantly affect the final asset f dollars when they changes.
+According to the analysis,f is essentially negatively correlated with b and f will be more sensitive to changes in b compared to a.
+Our model is not very good at grasping the price of gold because it changes so frequently.
+So it is not true that if the transaction cost is low, trader will benefit more.
+But for bitcoin, the changes are large and infrequent, the model is easier to make a correct judgment, and when the transaction cost is very low or even 0, we can arbitrage and protect the value easily.
 
-
-
+In summary, it can be seen that the model is sensitive to trading commissions.
 
 
 \section{Evaluate of the Model}
 \subsection{Strengths and weaknesses}
+
+
+
 
 \subsection{Sensitivity Analysis}
 
 
 
 
-\section{Conclusions}
-
 
 \section{A Memo}
-
-
 
 
 
