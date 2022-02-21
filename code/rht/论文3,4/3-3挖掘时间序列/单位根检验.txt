@@ -1,0 +1,12 @@
+data:  data_raw_gold
+Dickey-Fuller = -2.4368, Lag order = 10, p-value = 0.3934
+data:  data_raw_gold_diff1
+Dickey-Fuller = -11.357, Lag order = 10, p-value = <0.01
+data:  data_raw_gold_diff2
+Dickey-Fuller = -20.351, Lag order = 10, p-value = <0.01
+data:  data_raw_bchain
+Dickey-Fuller = -1.4395, Lag order = 12, p-value = 0.8156
+data:  data_raw_bchain_diff1
+Dickey-Fuller = -11.633, Lag order = 12, p-value = <0.01
+data:  data_raw_bchain_diff2
+Dickey-Fuller = -18.999, Lag order = 12, p-value = <0.01

@@ -1,0 +1,4 @@
+data:  model_gold$residual
+X-squared = 4.9084, df = 7.1428, p-value = 0.6862
+data:  model_bchain$residual
+X-squared = 1.3484, df = 7.5099, p-value = 0.9919
