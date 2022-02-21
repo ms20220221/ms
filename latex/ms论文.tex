@@ -354,10 +354,14 @@ And we can use the computer to find its numerical solution.
 \end{enumerate}
 
 
-\subsubsection{当前的资产持有情况}
+\subsubsection{当前的资产持有情况Current Asset Holding}
 在确定完资产的收益情况之后，我们还必须考虑当前的资产配置情况，才能确定最终购买何种资产、卖出何种资产。
+After determining the return on the assets, we also consider the current asset allocation in order to determine what and how much assets we will eventually buy or sell.
 根据“每次购买时消耗所有现金”的假设，我们不可能同时持有现金、黄金、比特币，也不可能同时不持有任何资产。
-因此一共有$2^3-2=6$种可能的情况，分别是：(实心圆表示持有该资产，空心圆表示不持有该资产)
+With the assumption that "All cash is consumed at each purchase",it is impossible to hold cash, gold, bitcoin or no assets at the same time.
+因此一共有%$2^3-2=6$种可能的情况，分别是：(实心圆表示持有该资产，空心圆表示不持有该资产)
+So there are a total of $2^3-2=6$ possible scenarios, to be specific: (solid circles indicate that the asset is held, hollow circles indicate that the asset is not held)
+
 \begin{tabular}{c c c}
   \hline
   cash&gold&bitcoin\\
@@ -377,27 +381,37 @@ And we can use the computer to find its numerical solution.
   \hline
   \end{tabular}
 
-\subsubsection{最终交易行为的确定}
-每天的黄金和比特币的预期收益都有上涨、下跌、稳定三种情况，当他们组合在一起时共有9种情况。而每天资产的初始状态，正如上
-一小节所指出的，有6种情况。因此，最终的交易行为有54种情况。幸运的是，这54种情况可以被下面的6种情况概括：
+
+\subsubsection{Determination of the final act of transaction}
+每天的黄金和比特币的预期收益都有上涨、下跌、稳定三种情况，Daily expected returns for gold and bitcoin are up, down, and stable.
+当他们组合在一起时共有9种情况。So,there are 9 cases when they are combined together.
+而每天资产的初始状态，正如上一小节所指出的，有6种情况。And the initial state of the daily assets, as pointed out in the previous subsection, has six profiles.
+因此，最终的交易行为有54种情况。Thus, the final trading behavior totals 54 scenarios.
+幸运的是，这54种情况可以被下面的6种情况概括：Fortunately, we can summarize this into the following six situations:
+
 \begin{enumerate}
-  \item one maintain,the other appreciate:
+  \item \textbf{one maintain,the other appreciate:}In this case, if cash is available trader uses it all to buy appreciating assets. If no cash is available do not make the purchase.
   在这种情况下，如果有现金就用现金全部买入升值的资产。如果没有现金就不进行购买
-  \item one maintain,the other depreciate:
+  \item \textbf{one maintain,the other depreciate:}Under such circumstances, trader sells all the devalued asset if they hold.
   在这种情况下，如果持有该贬值资产的话就全额卖出
-  \item one appreciate,the other depreciate:
+  \item \textbf{one appreciate,the other depreciate:}In this case, the trader first sells the depreciating asset in full and then buys the appreciating asset with all the cash gained.
   在这种情况下，首先全额卖出贬值资产，然后将获得的全部现金买入升值资产
-  \item both maintain:
+  \item \textbf{both maintain:}Trader does not make any transactions
   不进行任何交易
-  \item both appreciate:
-  如4.2.1种所说，两个资产的预期收益同时上涨时，需要根据夏普比率确定最优的资产组合。如果此时只持有现金一种资产，那么
-  我们可以直接根据最优比例购买两种资产。而如果此时持有黄金、比特币中的任何一种或者同时持有两种时，我们就要决定是否
-  还需要将比例调整为最优比例，毕竟每次调整都需要不少佣金。为了简化模型，我们根据经验给出了调仓的标准：如果调仓时两种
-  资产同时变动的比例超过百分之10，就调整为最优比例，否则就保持不变
-  \item both depreciate:
+    \item \textbf{both appreciate:}
+  如4.2.1种所说，两个资产的预期收益同时上涨时，需要根据夏普比率确定最优的资产组合。
+  As mentioned in 4.2.1, when the expected returns of two assets rise simultaneously, we need to determine the optimal asset mix based on the Sharpe ratio.
+  如果此时只持有现金一种资产，那么我们可以直接根据最优比例购买两种资产。If we only hold cash as an asset, then we can simply buy two assets based on the optimal ratio.
+  而如果此时持有黄金、比特币中的任何一种或者同时持有两种时，我们就要决定是否还需要将比例调整为最优比例，毕竟每次调整都需要不少佣金。
+  However, if we hold either gold, bitcoin or both, we have to decide if we still need to adjust the ratio to the optimal ratio.After all, each adjustment requires a significant commission.
+  为了简化模型，我们根据经验给出了调仓的标准：如果调仓时两种资产同时变动的比例超过百分之10，就调整为最优比例，否则就保持不变To simplify the model, we define the criteria for transferring positions:
+  If the proportion of simultaneous changes in both assets exceeds 10 percent when the position is transferred, it will be adjusted to the optimal proportion, otherwise it will remain unchanged.
+  
+  \item\textbf{both depreciate:}After selling two assets at the same time, we only have one asset in cash
   同时卖出两种资产，这之后我们只拥有现金一种资产
 \end{enumerate}
-\subsubsection{其他说明}
+
+\subsubsection{其他说明Additional Explanation}
 \begin{itemize}
   \item 卖出标准除了预期收益
 \end{itemize}
