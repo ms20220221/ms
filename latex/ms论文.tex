@@ -225,6 +225,7 @@ In ARIMA(p, d, q),AR is "autoregressive", p is the number of autoregressive term
 MA is "sliding average ",q is the number of sliding average terms, and d is the number of differences (order) made to make it a smooth series.
 Although the word "difference" does not appear in the English name of ARIMA, it is a key step to analyse time series.
 %补充公式
+
 %确定系数pq
 \subsubsection{Determining the parameters p, q }
 We take advantage of the autocorrelation and partial autocorrelation plots to find out the parameters p, q.
@@ -281,8 +282,7 @@ so we use the auto.arima function in R language to automate the parameter determ
 
 The best model information was obtained after using the auto.arima function with all given data.
 And the model is as follows:
-
-
+Gold:p=4，d=1，q=5;ARIMA(4,1,5)                          Bitcoin:p=2，d=1，q=1;ARIMA(2,1,1) 
 
 %模型残差白噪声检验
 \subsubsection{White noise test for model residuals}
@@ -290,27 +290,21 @@ It is usually assumed that the model residuals of a reasonable model should be w
 logically we conducted a white noise test on the residuals of the resulting model.
 The results are as follows.
 
+Gold：X-squared = 4.9084, df = 7.1428, p-value = 0.6862
+Bitcoin：X-squared = 1.3484, df = 7.5099, p-value = 0.9919
+We can see model residuals p>0.05, is white noise.Our model is valid.
 
 
 \subsubsection{Model Prediction and Visualization}
 To make the results more intuitive,we use the model to calculate and predict the historical data. 
 And the visualization results are shown in the figure
-
-
-The reason for the large overlap of lines in Figure 6 is that the data sample is too large.
-So we choose 100 of these samples and make graph7.
-
-\subsubsection{Batch prediction of data}   %去未来七天
-Based on the price data as of the day,we predicted gold and bitcoin price for the next 7 days 
-and the same automated arima modeling is performed using the auto.arima function to obtain the price data for the next 7 days.
-By analyzing the forecast data, we observed a roughly linear variation. 
-Then,we integrated these data using linear regression to clarity the future price trend 
-and fitted slope quantifies the trend to make the better investment decisions.
-
-
+%chatu
 
 The reason for the large overlap of lines in Figure 6 is that the data sample is too large.
 So we choose 100 of these samples and make graph7.
+%插图
+The model fits well apparently from the images.
+
 
 \subsubsection{Batch prediction of data}   %去未来七天
 Based on the price data as of the day,we predicted gold and bitcoin price for the next 7 days 
