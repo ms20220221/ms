@@ -88,9 +88,9 @@ for today in range(1,len(data)):
         gold_market_on=False
     elif(gold_price!=0):
         if gold_wait<=0:
-            if gold_7zdf>2*gold_crate/gold_hold_avg:# 买入标准
+            if gold_7zdf>200*gold_crate/gold_hold_avg:# 买入标准
                 gold_wanna_buy=True
-            if gold_7zdf<2*gold_crate/gold_hold_avg :# 卖出标准
+            if gold_7zdf<0 :# 卖出标准
                 gold_wanna_sell=True
                 gold_wanna_buy=False
     
@@ -98,9 +98,9 @@ for today in range(1,len(data)):
     # 比特币交易判断
 
     if bit_wait<=0:
-        if bit_7zdf>2*bit_crate/bit_hold_avg:# 买入标准
+        if bit_7zdf>200*bit_crate/bit_hold_avg:# 买入标准
             bit_wanna_buy=True
-        if bit_7zdf<2*bit_crate/bit_hold_avg :# 卖出标准
+        if bit_7zdf<0 :# 卖出标准
             bit_wanna_sell=True
             bit_wanna_buy=False
 
