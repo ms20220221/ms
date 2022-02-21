@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  22 FEB 2022 04:45
+=======
 This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.27)  22 FEB 2022 04:45
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,6 +769,11 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.0pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+<<<<<<< HEAD
+(Font)              scaled to size 20.74pt on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+(d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+=======
 (Font)              scaled to size 20.74pt on input line 27.
 Missing character: There is no 短 ("77ED) in font ntx-Regular-tlf-t1!
 Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
@@ -796,6 +805,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 27.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
  (d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
@@ -847,7 +857,11 @@ LaTeX Font Info:    Trying to load font information for T1+qhv on input line 45.
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+<<<<<<< HEAD
+(Font)              scaled to size 15.55188pt on input line 44.
+=======
 (Font)              scaled to size 15.55188pt on input line 45.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 \tf@toc=\write5
 \openout5 = `ms论文.toc'.
 
@@ -1549,6 +1563,13 @@ Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
 Missing character: There is no 少 ("5C11) in font ntx-Regular-tlf-t1!
 Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
 
+<<<<<<< HEAD
+
+LaTeX Warning: Reference `fig1' on page 2 undefined on input line 107.
+
+
+LaTeX Warning: Reference `fig2' on page 2 undefined on input line 107.
+=======
 c:/Users/27771/Desktop/ms/latex/ms论文.tex:101: Missing number, treated as zero.
 <to be read again> 
                    r
@@ -1675,6 +1696,7 @@ l.115 ...\columnwidth]{D:/meisai/ms/fig/gold.eps}}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 File: D:/meisai/ms/fig/gold.eps Graphic file (type eps)
 <D:/meisai/ms/fig/gold.eps>
@@ -1710,9 +1732,12 @@ If that doesn't work, type  X <return>  to quit.
 File: D:/meisai/ms/fig/Bitcoin.eps Graphic file (type eps)
 <D:/meisai/ms/fig/Bitcoin.eps>
 
+<<<<<<< HEAD
+=======
 LaTeX Warning: Float too large for page by 287.35683pt on input line 122.
 
 
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
@@ -1777,11 +1802,19 @@ Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
 Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
 Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+<<<<<<< HEAD
+(Font)              scaled to size 9.85492pt on input line 138.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 138.
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 138.
+=======
 (Font)              scaled to size 9.85492pt on input line 141.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 141.
 
 LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 141.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1792,6 +1825,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 
+<<<<<<< HEAD
+LaTeX Warning: Reference `fig4' on page 3 undefined on input line 145.
+
+File: D:/meisai/ms/fig/gd1.eps Graphic file (type eps)
+<D:/meisai/ms/fig/gd1.eps>
+File: D:/meisai/ms/fig/bd1.eps Graphic file (type eps)
+<D:/meisai/ms/fig/bd1.eps>
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 153.
+=======
 LaTeX Warning: Reference `fig4' on page 3 undefined on input line 148.
 
 
@@ -1928,6 +1971,7 @@ Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
 Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
 
 LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 210.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1937,6 +1981,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
+<<<<<<< HEAD
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+
+
+LaTeX Warning: Reference `fig5' on page 4 undefined on input line 164.
+
+File: D:/meisai/ms/fig/gd2.eps Graphic file (type eps)
+<D:/meisai/ms/fig/gd2.eps>
+File: D:/meisai/ms/fig/bd2.eps Graphic file (type eps)
+<D:/meisai/ms/fig/bd2.eps>
+=======
 Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
 Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
 
@@ -2245,9 +2302,13 @@ File: D:/meisai/ms/fig/b661.eps Graphic file (type eps)
 <D:/meisai/ms/fig/b661.eps>
 
 LaTeX Warning: Float too large for page by 154.75218pt on input line 287.
-
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 174.
 
 
 LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 296.
@@ -2260,6 +2321,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
+<<<<<<< HEAD
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 210.
+=======
 Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
 Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
 Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
@@ -2500,6 +2572,7 @@ Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
 
 
 LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 361.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2509,6 +2582,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
+<<<<<<< HEAD
+Missing character: There is no Ⅰ ("2160) in font ntx-Bold-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Bold-tlf-t1!
+File: D:/meisai/ms/fig/g6.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g6.eps>
+File: D:/meisai/ms/fig/b6.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b6.eps>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig4' on page 6 undefined on input line 246.
+
+
+LaTeX Warning: Reference `fig5' on page 6 undefined on input line 246.
+
+File: D:/meisai/ms/fig/g61.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g61.eps>
+File: D:/meisai/ms/fig/b61.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b61.eps>
+File: D:/meisai/ms/fig/g661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g661.eps>
+File: D:/meisai/ms/fig/b661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b661.eps>
+File: D:/meisai/ms/fig/g62.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g62.eps>
+File: D:/meisai/ms/fig/b62.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b62.eps>
+File: D:/meisai/ms/fig/g661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/g661.eps>
+File: D:/meisai/ms/fig/b661.eps Graphic file (type eps)
+<D:/meisai/ms/fig/b661.eps>
+
+LaTeX Warning: Float too large for page by 154.75218pt on input line 273.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+=======
 Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
 Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
 Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
@@ -3248,6 +3360,14 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 434.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
+
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 293.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3257,6 +3377,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
+<<<<<<< HEAD
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 309.
+=======
 Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
 Missing character: There is no 天 ("5929) in font ntx-Regular-tlf-t1!
 Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
@@ -3709,6 +3836,7 @@ Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
 Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
 Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
 Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 
 LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 514.
@@ -3721,6 +3849,498 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
+<<<<<<< HEAD
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 309.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8]
+Missing character: There is no 符 ("7B26) in font ntx-Regular-tlf-t1!
+Missing character: There is no 号 ("53F7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 说 ("8BF4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 明 ("660E) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 预 ("9884) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 预 ("9884) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no 交 ("4EA4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 易 ("6613) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 佣 ("4F63) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 交 ("4EA4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 易 ("6613) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 佣 ("4F63) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 历 ("5386) in font ntx-Regular-tlf-t1!
+Missing character: There is no 史 ("53F2) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 半 ("534A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 方 ("65B9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 差 ("5DEE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 历 ("5386) in font ntx-Regular-tlf-t1!
+Missing character: There is no 史 ("53F2) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 半 ("534A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 方 ("65B9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 差 ("5DEE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 交 ("4EA4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 易 ("6613) in font ntx-Regular-tlf-t1!
+Missing character: There is no 者 ("8005) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 风 ("98CE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 险 ("9669) in font ntx-Regular-tlf-t1!
+Missing character: There is no 厌 ("538C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 恶 ("6076) in font ntx-Regular-tlf-t1!
+Missing character: There is no 系 ("7CFB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 数 ("6570) in font ntx-Regular-tlf-t1!
+Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 次 ("6B21) in font ntx-Regular-tlf-t1!
+Missing character: There is no 购 ("8D2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 后 ("540E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 平 ("5E73) in font ntx-Regular-tlf-t1!
+Missing character: There is no 均 ("5747) in font ntx-Regular-tlf-t1!
+Missing character: There is no 天 ("5929) in font ntx-Regular-tlf-t1!
+Missing character: There is no 数 ("6570) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 购 ("8D2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 和 ("548C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 支 ("652F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 付 ("4ED8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 定 ("5B9A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 佣 ("4F63) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 换 ("6362) in font ntx-Regular-tlf-t1!
+Missing character: There is no 句 ("53E5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 话 ("8BDD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 说 ("8BF4) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 天 ("5929) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 是 ("662F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 成 ("6210) in font ntx-Regular-tlf-t1!
+Missing character: There is no 本 ("672C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 以 ("4EE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 用 ("7528) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 预 ("9884) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 大 ("5927) in font ntx-Regular-tlf-t1!
+Missing character: There is no 到 ("5230) in font ntx-Regular-tlf-t1!
+Missing character: There is no 足 ("8DB3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 以 ("4EE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 抵 ("62B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 消 ("6D88) in font ntx-Regular-tlf-t1!
+Missing character: There is no 这 ("8FD9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 个 ("4E2A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 成 ("6210) in font ntx-Regular-tlf-t1!
+Missing character: There is no 本 ("672C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 就 ("5C31) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 以 ("4EE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 考 ("8003) in font ntx-Regular-tlf-t1!
+Missing character: There is no 虑 ("8651) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 入 ("5165) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 预 ("9884) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 小 ("5C0F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 于 ("4E8E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 负 ("8D1F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 成 ("6210) in font ntx-Regular-tlf-t1!
+Missing character: There is no 本 ("672C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 代 ("4EE3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 表 ("8868) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 该 ("8BE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 亏 ("4E8F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 损 ("635F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 额 ("989D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 即 ("5373) in font ntx-Regular-tlf-t1!
+Missing character: There is no 将 ("5C06) in font ntx-Regular-tlf-t1!
+Missing character: There is no 超 ("8D85) in font ntx-Regular-tlf-t1!
+Missing character: There is no 过 ("8FC7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 成 ("6210) in font ntx-Regular-tlf-t1!
+Missing character: There is no 本 ("672C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 立 ("7ACB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 刻 ("523B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 抛 ("629B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 止 ("6B62) in font ntx-Regular-tlf-t1!
+Missing character: There is no 损 ("635F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 代 ("4EE3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 表 ("8868) in font ntx-Regular-tlf-t1!
+Missing character: There is no 该 ("8BE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 近 ("8FD1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 会 ("4F1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 涨 ("6DA8) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 以 ("4EE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 入 ("5165) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 代 ("4EE3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 表 ("8868) in font ntx-Regular-tlf-t1!
+Missing character: There is no 该 ("8BE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 近 ("8FD1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 会 ("4F1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 跌 ("8DCC) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 必 ("5FC5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 须 ("987B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 代 ("4EE3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 表 ("8868) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 近 ("8FD1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 价 ("4EF7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 格 ("683C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 稳 ("7A33) in font ntx-Regular-tlf-t1!
+Missing character: There is no 定 ("5B9A) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 也 ("4E5F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 由 ("7531) in font ntx-Regular-tlf-t1!
+Missing character: There is no 于 ("4E8E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 投 ("6295) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 者 ("8005) in font ntx-Regular-tlf-t1!
+Missing character: There is no 、 ("3001) in font ntx-Regular-tlf-t1!
+Missing character: There is no 投 ("6295) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 品 ("54C1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 投 ("6295) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 方 ("65B9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 对 ("5BF9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 于 ("4E8E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 风 ("98CE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 险 ("9669) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 厌 ("538C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 恶 ("6076) in font ntx-Regular-tlf-t1!
+Missing character: There is no 程 ("7A0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 度 ("5EA6) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 因 ("56E0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 此 ("6B64) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 引 ("5F15) in font ntx-Regular-tlf-t1!
+Missing character: There is no 入 ("5165) in font ntx-Regular-tlf-t1!
+Missing character: There is no 了 ("4E86) in font ntx-Regular-tlf-t1!
+Missing character: There is no 来 ("6765) in font ntx-Regular-tlf-t1!
+Missing character: There is no 刻 ("523B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 画 ("753B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 风 ("98CE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 险 ("9669) in font ntx-Regular-tlf-t1!
+Missing character: There is no 厌 ("538C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 恶 ("6076) in font ntx-Regular-tlf-t1!
+Missing character: There is no 程 ("7A0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 度 ("5EA6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 反 ("53CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 之 ("4E4B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 表 ("8868) in font ntx-Regular-tlf-t1!
+Missing character: There is no 示 ("793A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 投 ("6295) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 者 ("8005) in font ntx-Regular-tlf-t1!
+Missing character: There is no 越 ("8D8A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 激 ("6FC0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 进 ("8FDB) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 他 ("4ED6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 更 ("66F4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 宽 ("5BBD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 松 ("677E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 入 ("5165) in font ntx-Regular-tlf-t1!
+Missing character: There is no 标 ("6807) in font ntx-Regular-tlf-t1!
+Missing character: There is no 准 ("51C6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 和 ("548C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 更 ("66F4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 严 ("4E25) in font ntx-Regular-tlf-t1!
+Missing character: There is no 格 ("683C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 标 ("6807) in font ntx-Regular-tlf-t1!
+Missing character: There is no 准 ("51C6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 此 ("6B64) in font ntx-Regular-tlf-t1!
+Missing character: There is no 外 ("5916) in font ntx-Regular-tlf-t1!
+Missing character: There is no 在 ("5728) in font ntx-Regular-tlf-t1!
+Missing character: There is no 购 ("8D2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 得 ("5F97) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 考 ("8003) in font ntx-Regular-tlf-t1!
+Missing character: There is no 虑 ("8651) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 面 ("9762) in font ntx-Regular-tlf-t1!
+Missing character: There is no 两 ("4E24) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 和 ("548C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 中 ("4E2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 只 ("53EA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 达 ("8FBE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 到 ("5230) in font ntx-Regular-tlf-t1!
+Missing character: There is no 了 ("4E86) in font ntx-Regular-tlf-t1!
+Missing character: There is no 上 ("4E0A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 涨 ("6DA8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 条 ("6761) in font ntx-Regular-tlf-t1!
+Missing character: There is no 件 ("4EF6) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 那 ("90A3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 么 ("4E48) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 只 ("53EA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 把 ("628A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 前 ("524D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 用 ("7528) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 全 ("5168) in font ntx-Regular-tlf-t1!
+Missing character: There is no 部 ("90E8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 入 ("5165) in font ntx-Regular-tlf-t1!
+Missing character: There is no 该 ("8BE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 即 ("5373) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 而 ("800C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 和 ("548C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 上 ("4E0A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 涨 ("6DA8) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 就 ("5C31) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 考 ("8003) in font ntx-Regular-tlf-t1!
+Missing character: There is no 虑 ("8651) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 何 ("4F55) in font ntx-Regular-tlf-t1!
+Missing character: There is no 分 ("5206) in font ntx-Regular-tlf-t1!
+Missing character: There is no 配 ("914D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 用 ("7528) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 在 ("5728) in font ntx-Regular-tlf-t1!
+Missing character: There is no 这 ("8FD9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 采 ("91C7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 用 ("7528) in font ntx-Regular-tlf-t1!
+Missing character: There is no 夏 ("590F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 普 ("666E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no 衡 ("8861) in font ntx-Regular-tlf-t1!
+Missing character: There is no 量 ("91CF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 投 ("6295) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 组 ("7EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 合 ("5408) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 好 ("597D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 坏 ("574F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 程 ("7A0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 度 ("5EA6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 370.
+=======
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 514.
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 516.
@@ -3744,6 +4364,7 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) (./code/mcmthesis-matlab1.m
 
 LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 1.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3752,6 +4373,603 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+<<<<<<< HEAD
+[9]
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 用 ("7528) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 半 ("534A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 标 ("6807) in font ntx-Regular-tlf-t1!
+Missing character: There is no 准 ("51C6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 差 ("5DEE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 作 ("4F5C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 为 ("4E3A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 衡 ("8861) in font ntx-Regular-tlf-t1!
+Missing character: There is no 量 ("91CF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 风 ("98CE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 险 ("9669) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 量 ("91CF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 化 ("5316) in font ntx-Regular-tlf-t1!
+Missing character: There is no 指 ("6307) in font ntx-Regular-tlf-t1!
+Missing character: There is no 标 ("6807) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 作 ("4F5C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 为 ("4E3A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 标 ("6807) in font ntx-Regular-tlf-t1!
+Missing character: There is no 准 ("51C6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 差 ("5DEE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 中 ("4E2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 代 ("4EE3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 表 ("8868) in font ntx-Regular-tlf-t1!
+Missing character: There is no 小 ("5C0F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 于 ("4E8E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 均 ("5747) in font ntx-Regular-tlf-t1!
+Missing character: There is no 值 ("503C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 波 ("6CE2) in font ntx-Regular-tlf-t1!
+Missing character: There is no 动 ("52A8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 部 ("90E8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 分 ("5206) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 它 ("5B83) in font ntx-Regular-tlf-t1!
+Missing character: There is no 更 ("66F4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 能 ("80FD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 体 ("4F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 亏 ("4E8F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 损 ("635F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 风 ("98CE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 险 ("9669) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 用 ("7528) in font ntx-Regular-tlf-t1!
+Missing character: There is no 预 ("9884) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no 除 ("9664) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 半 ("534A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 标 ("6807) in font ntx-Regular-tlf-t1!
+Missing character: There is no 准 ("51C6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 差 ("5DEE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 得 ("5F97) in font ntx-Regular-tlf-t1!
+Missing character: There is no 到 ("5230) in font ntx-Regular-tlf-t1!
+Missing character: There is no 夏 ("590F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 普 ("666E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 它 ("5B83) in font ntx-Regular-tlf-t1!
+Missing character: There is no 意 ("610F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 味 ("5473) in font ntx-Regular-tlf-t1!
+Missing character: There is no 着 ("7740) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 前 ("524D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 投 ("6295) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 组 ("7EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 合 ("5408) in font ntx-Regular-tlf-t1!
+Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 单 ("5355) in font ntx-Regular-tlf-t1!
+Missing character: There is no 位 ("4F4D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 风 ("98CE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 险 ("9669) in font ntx-Regular-tlf-t1!
+Missing character: There is no 所 ("6240) in font ntx-Regular-tlf-t1!
+Missing character: There is no 对 ("5BF9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 应 ("5E94) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 大 ("5927) in font ntx-Regular-tlf-t1!
+Missing character: There is no 小 ("5C0F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 夏 ("590F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 普 ("666E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 大 ("5927) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 无 ("65E0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 疑 ("7591) in font ntx-Regular-tlf-t1!
+Missing character: There is no 意 ("610F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 味 ("5473) in font ntx-Regular-tlf-t1!
+Missing character: There is no 着 ("7740) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 前 ("524D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 投 ("6295) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 组 ("7EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 合 ("5408) in font ntx-Regular-tlf-t1!
+Missing character: There is no 是 ("662F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 优 ("4F18) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 根 ("6839) in font ntx-Regular-tlf-t1!
+Missing character: There is no 据 ("636E) in font ntx-Regular-tlf-t1!
+Missing character: There is no “ ("201C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 次 ("6B21) in font ntx-Regular-tlf-t1!
+Missing character: There is no 购 ("8D2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 消 ("6D88) in font ntx-Regular-tlf-t1!
+Missing character: There is no 耗 ("8017) in font ntx-Regular-tlf-t1!
+Missing character: There is no 所 ("6240) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no ” ("201D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 和 ("548C) in font ntx-Regular-tlf-t1!
+Missing character: There is no “ ("201C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 和 ("548C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 价 ("4EF7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 格 ("683C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 波 ("6CE2) in font ntx-Regular-tlf-t1!
+Missing character: There is no 动 ("52A8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 相 ("76F8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 互 ("4E92) in font ntx-Regular-tlf-t1!
+Missing character: There is no 独 ("72EC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 立 ("7ACB) in font ntx-Regular-tlf-t1!
+Missing character: There is no ” ("201D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 这 ("8FD9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 两 ("4E24) in font ntx-Regular-tlf-t1!
+Missing character: There is no 个 ("4E2A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 假 ("5047) in font ntx-Regular-tlf-t1!
+Missing character: There is no 设 ("8BBE) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 求 ("6C42) in font ntx-Regular-tlf-t1!
+Missing character: There is no 解 ("89E3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 优 ("4F18) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 投 ("6295) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 以 ("4EE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 简 ("7B80) in font ntx-Regular-tlf-t1!
+Missing character: There is no 化 ("5316) in font ntx-Regular-tlf-t1!
+Missing character: There is no 为 ("4E3A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 个 ("4E2A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 优 ("4F18) in font ntx-Regular-tlf-t1!
+Missing character: There is no 化 ("5316) in font ntx-Regular-tlf-t1!
+Missing character: There is no 问 ("95EE) in font ntx-Regular-tlf-t1!
+Missing character: There is no 题 ("9898) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 以 ("4EE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 利 ("5229) in font ntx-Regular-tlf-t1!
+Missing character: There is no 用 ("7528) in font ntx-Regular-tlf-t1!
+Missing character: There is no 计 ("8BA1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 算 ("7B97) in font ntx-Regular-tlf-t1!
+Missing character: There is no 机 ("673A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 求 ("6C42) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 它 ("5B83) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 数 ("6570) in font ntx-Regular-tlf-t1!
+Missing character: There is no 值 ("503C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 解 ("89E3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+
+Runaway argument?
+ max \qquad & \frac {w_G\times r_G+w_B\times r_B}{\sqrt {w_G^2 \sigma \ETC.
+d:/meisai/ms/latex/ms论文.tex:390: Paragraph ended before \align* was complete.
+<to be read again> 
+                   \par 
+l.390 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+d:/meisai/ms/latex/ms论文.tex:390: Missing $ inserted.
+<inserted text> 
+                $
+l.390 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+d:/meisai/ms/latex/ms论文.tex:390: Missing } inserted.
+<inserted text> 
+                }
+l.390 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+d:/meisai/ms/latex/ms论文.tex:390: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.390 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+d:/meisai/ms/latex/ms论文.tex:390: Display math should end with $$.
+<to be read again> 
+                   \@@par 
+l.390 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+d:/meisai/ms/latex/ms论文.tex:390: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.390 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Missing character: There is no 当 ("5F53) in font ntx-Bold-tlf-t1!
+Missing character: There is no 前 ("524D) in font ntx-Bold-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Bold-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Bold-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Bold-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Bold-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Bold-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Bold-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Bold-tlf-t1!
+Missing character: There is no 在 ("5728) in font ntx-Regular-tlf-t1!
+Missing character: There is no 确 ("786E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 定 ("5B9A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 完 ("5B8C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 之 ("4E4B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 后 ("540E) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 还 ("8FD8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 必 ("5FC5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 须 ("987B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 考 ("8003) in font ntx-Regular-tlf-t1!
+Missing character: There is no 虑 ("8651) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 前 ("524D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 配 ("914D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 置 ("7F6E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 才 ("624D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 能 ("80FD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 确 ("786E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 定 ("5B9A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 终 ("7EC8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 购 ("8D2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 何 ("4F55) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 、 ("3001) in font ntx-Regular-tlf-t1!
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 何 ("4F55) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 根 ("6839) in font ntx-Regular-tlf-t1!
+Missing character: There is no 据 ("636E) in font ntx-Regular-tlf-t1!
+Missing character: There is no “ ("201C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 次 ("6B21) in font ntx-Regular-tlf-t1!
+Missing character: There is no 购 ("8D2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 消 ("6D88) in font ntx-Regular-tlf-t1!
+Missing character: There is no 耗 ("8017) in font ntx-Regular-tlf-t1!
+Missing character: There is no 所 ("6240) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no ” ("201D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 假 ("5047) in font ntx-Regular-tlf-t1!
+Missing character: There is no 设 ("8BBE) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 能 ("80FD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 、 ("3001) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 、 ("3001) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 也 ("4E5F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 能 ("80FD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 任 ("4EFB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 何 ("4F55) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 因 ("56E0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 此 ("6B64) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 共 ("5171) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 天 ("5929) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 和 ("548C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 预 ("9884) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 都 ("90FD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 上 ("4E0A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 涨 ("6DA8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 、 ("3001) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 跌 ("8DCC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 、 ("3001) in font ntx-Regular-tlf-t1!
+Missing character: There is no 稳 ("7A33) in font ntx-Regular-tlf-t1!
+Missing character: There is no 定 ("5B9A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 三 ("4E09) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 当 ("5F53) in font ntx-Regular-tlf-t1!
+Missing character: There is no 他 ("4ED6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 组 ("7EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 合 ("5408) in font ntx-Regular-tlf-t1!
+Missing character: There is no 在 ("5728) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 起 ("8D77) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 共 ("5171) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 而 ("800C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 天 ("5929) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 初 ("521D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 始 ("59CB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 状 ("72B6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 态 ("6001) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 正 ("6B63) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 上 ("4E0A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 小 ("5C0F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 节 ("8282) in font ntx-Regular-tlf-t1!
+Missing character: There is no 所 ("6240) in font ntx-Regular-tlf-t1!
+Missing character: There is no 指 ("6307) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 因 ("56E0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 此 ("6B64) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 终 ("7EC8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 交 ("4EA4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 易 ("6613) in font ntx-Regular-tlf-t1!
+Missing character: There is no 行 ("884C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 为 ("4E3A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 幸 ("5E78) in font ntx-Regular-tlf-t1!
+Missing character: There is no 运 ("8FD0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 是 ("662F) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 这 ("8FD9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 以 ("4EE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 被 ("88AB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 面 ("9762) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 概 ("6982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 括 ("62EC) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 在 ("5728) in font ntx-Regular-tlf-t1!
+Missing character: There is no 这 ("8FD9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 就 ("5C31) in font ntx-Regular-tlf-t1!
+Missing character: There is no 用 ("7528) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 全 ("5168) in font ntx-Regular-tlf-t1!
+Missing character: There is no 部 ("90E8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 入 ("5165) in font ntx-Regular-tlf-t1!
+Missing character: There is no 升 ("5347) in font ntx-Regular-tlf-t1!
+Missing character: There is no 值 ("503C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 没 ("6CA1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 就 ("5C31) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 进 ("8FDB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 行 ("884C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 购 ("8D2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 在 ("5728) in font ntx-Regular-tlf-t1!
+Missing character: There is no 这 ("8FD9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 该 ("8BE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 贬 ("8D2C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 值 ("503C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 话 ("8BDD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 就 ("5C31) in font ntx-Regular-tlf-t1!
+Missing character: There is no 全 ("5168) in font ntx-Regular-tlf-t1!
+Missing character: There is no 额 ("989D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 在 ("5728) in font ntx-Regular-tlf-t1!
+Missing character: There is no 这 ("8FD9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 情 ("60C5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 况 ("51B5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 下 ("4E0B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 首 ("9996) in font ntx-Regular-tlf-t1!
+Missing character: There is no 先 ("5148) in font ntx-Regular-tlf-t1!
+Missing character: There is no 全 ("5168) in font ntx-Regular-tlf-t1!
+Missing character: There is no 额 ("989D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 贬 ("8D2C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 值 ("503C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 然 ("7136) in font ntx-Regular-tlf-t1!
+Missing character: There is no 后 ("540E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 将 ("5C06) in font ntx-Regular-tlf-t1!
+Missing character: There is no 获 ("83B7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 得 ("5F97) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 全 ("5168) in font ntx-Regular-tlf-t1!
+Missing character: There is no 部 ("90E8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 入 ("5165) in font ntx-Regular-tlf-t1!
+Missing character: There is no 升 ("5347) in font ntx-Regular-tlf-t1!
+Missing character: There is no 值 ("503C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 进 ("8FDB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 行 ("884C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 任 ("4EFB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 何 ("4F55) in font ntx-Regular-tlf-t1!
+Missing character: There is no 交 ("4EA4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 易 ("6613) in font ntx-Regular-tlf-t1!
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 436.
+
+=======
 [8]) (./code/mcmthesis-sudoku.cpp
 Overfull \hbox (28.24974pt too wide) in paragraph at lines 1--2
 [][][][][][][][][] 
@@ -3785,6 +5003,7 @@ AED: lastpage setting LastPage
 
 LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 551.
 
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -3793,8 +5012,260 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
+<<<<<<< HEAD
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 所 ("6240) in font ntx-Regular-tlf-t1!
+Missing character: There is no 说 ("8BF4) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 两 ("4E24) in font ntx-Regular-tlf-t1!
+Missing character: There is no 个 ("4E2A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 预 ("9884) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 上 ("4E0A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 涨 ("6DA8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 根 ("6839) in font ntx-Regular-tlf-t1!
+Missing character: There is no 据 ("636E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 夏 ("590F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 普 ("666E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 率 ("7387) in font ntx-Regular-tlf-t1!
+Missing character: There is no 确 ("786E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 定 ("5B9A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 优 ("4F18) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 组 ("7EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 合 ("5408) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 此 ("6B64) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 只 ("53EA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 那 ("90A3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 么 ("4E48) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 可 ("53EF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 以 ("4EE5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 直 ("76F4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 接 ("63A5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 根 ("6839) in font ntx-Regular-tlf-t1!
+Missing character: There is no 据 ("636E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 优 ("4F18) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 购 ("8D2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 买 ("4E70) in font ntx-Regular-tlf-t1!
+Missing character: There is no 两 ("4E24) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 而 ("800C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 此 ("6B64) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 黄 ("9EC4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 、 ("3001) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 特 ("7279) in font ntx-Regular-tlf-t1!
+Missing character: There is no 币 ("5E01) in font ntx-Regular-tlf-t1!
+Missing character: There is no 中 ("4E2D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 任 ("4EFB) in font ntx-Regular-tlf-t1!
+Missing character: There is no 何 ("4F55) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 或 ("6216) in font ntx-Regular-tlf-t1!
+Missing character: There is no 者 ("8005) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 两 ("4E24) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 就 ("5C31) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 决 ("51B3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 定 ("5B9A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 是 ("662F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 否 ("5426) in font ntx-Regular-tlf-t1!
+Missing character: There is no 还 ("8FD8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 将 ("5C06) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 调 ("8C03) in font ntx-Regular-tlf-t1!
+Missing character: There is no 整 ("6574) in font ntx-Regular-tlf-t1!
+Missing character: There is no 为 ("4E3A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 优 ("4F18) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 毕 ("6BD5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 竟 ("7ADF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 每 ("6BCF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 次 ("6B21) in font ntx-Regular-tlf-t1!
+Missing character: There is no 调 ("8C03) in font ntx-Regular-tlf-t1!
+Missing character: There is no 整 ("6574) in font ntx-Regular-tlf-t1!
+Missing character: There is no 都 ("90FD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 需 ("9700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 要 ("8981) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 少 ("5C11) in font ntx-Regular-tlf-t1!
+Missing character: There is no 佣 ("4F63) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 。 ("3002) in font ntx-Regular-tlf-t1!
+Missing character: There is no 为 ("4E3A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 了 ("4E86) in font ntx-Regular-tlf-t1!
+Missing character: There is no 简 ("7B80) in font ntx-Regular-tlf-t1!
+Missing character: There is no 化 ("5316) in font ntx-Regular-tlf-t1!
+Missing character: There is no 模 ("6A21) in font ntx-Regular-tlf-t1!
+Missing character: There is no 型 ("578B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 根 ("6839) in font ntx-Regular-tlf-t1!
+Missing character: There is no 据 ("636E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 经 ("7ECF) in font ntx-Regular-tlf-t1!
+Missing character: There is no 验 ("9A8C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 给 ("7ED9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 了 ("4E86) in font ntx-Regular-tlf-t1!
+Missing character: There is no 调 ("8C03) in font ntx-Regular-tlf-t1!
+Missing character: There is no 仓 ("4ED3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 标 ("6807) in font ntx-Regular-tlf-t1!
+Missing character: There is no 准 ("51C6) in font ntx-Regular-tlf-t1!
+Missing character: There is no ： ("FF1A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 如 ("5982) in font ntx-Regular-tlf-t1!
+Missing character: There is no 果 ("679C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 调 ("8C03) in font ntx-Regular-tlf-t1!
+Missing character: There is no 仓 ("4ED3) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 两 ("4E24) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 变 ("53D8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 动 ("52A8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 的 ("7684) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 超 ("8D85) in font ntx-Regular-tlf-t1!
+Missing character: There is no 过 ("8FC7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 百 ("767E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 分 ("5206) in font ntx-Regular-tlf-t1!
+Missing character: There is no 之 ("4E4B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 就 ("5C31) in font ntx-Regular-tlf-t1!
+Missing character: There is no 调 ("8C03) in font ntx-Regular-tlf-t1!
+Missing character: There is no 整 ("6574) in font ntx-Regular-tlf-t1!
+Missing character: There is no 为 ("4E3A) in font ntx-Regular-tlf-t1!
+Missing character: There is no 最 ("6700) in font ntx-Regular-tlf-t1!
+Missing character: There is no 优 ("4F18) in font ntx-Regular-tlf-t1!
+Missing character: There is no 比 ("6BD4) in font ntx-Regular-tlf-t1!
+Missing character: There is no 例 ("4F8B) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 否 ("5426) in font ntx-Regular-tlf-t1!
+Missing character: There is no 则 ("5219) in font ntx-Regular-tlf-t1!
+Missing character: There is no 就 ("5C31) in font ntx-Regular-tlf-t1!
+Missing character: There is no 保 ("4FDD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 持 ("6301) in font ntx-Regular-tlf-t1!
+Missing character: There is no 不 ("4E0D) in font ntx-Regular-tlf-t1!
+Missing character: There is no 变 ("53D8) in font ntx-Regular-tlf-t1!
+Missing character: There is no 同 ("540C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 时 ("65F6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 两 ("4E24) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no 这 ("8FD9) in font ntx-Regular-tlf-t1!
+Missing character: There is no 之 ("4E4B) in font ntx-Regular-tlf-t1!
+Missing character: There is no 后 ("540E) in font ntx-Regular-tlf-t1!
+Missing character: There is no 我 ("6211) in font ntx-Regular-tlf-t1!
+Missing character: There is no 们 ("4EEC) in font ntx-Regular-tlf-t1!
+Missing character: There is no 只 ("53EA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 拥 ("62E5) in font ntx-Regular-tlf-t1!
+Missing character: There is no 有 ("6709) in font ntx-Regular-tlf-t1!
+Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-t1!
+Missing character: There is no 金 ("91D1) in font ntx-Regular-tlf-t1!
+Missing character: There is no 一 ("4E00) in font ntx-Regular-tlf-t1!
+Missing character: There is no 种 ("79CD) in font ntx-Regular-tlf-t1!
+Missing character: There is no 资 ("8D44) in font ntx-Regular-tlf-t1!
+Missing character: There is no 产 ("4EA7) in font ntx-Regular-tlf-t1!
+Missing character: There is no 其 ("5176) in font ntx-Bold-tlf-t1!
+Missing character: There is no 他 ("4ED6) in font ntx-Bold-tlf-t1!
+Missing character: There is no 说 ("8BF4) in font ntx-Bold-tlf-t1!
+Missing character: There is no 明 ("660E) in font ntx-Bold-tlf-t1!
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 451.
+ (d:/texlive/2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 451.
+Missing character: There is no 卖 ("5356) in font ntx-Regular-tlf-t1!
+Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-t1!
+Missing character: There is no 标 ("6807) in font ntx-Regular-tlf-t1!
+Missing character: There is no 准 ("51C6) in font ntx-Regular-tlf-t1!
+Missing character: There is no 除 ("9664) in font ntx-Regular-tlf-t1!
+Missing character: There is no 了 ("4E86) in font ntx-Regular-tlf-t1!
+Missing character: There is no 预 ("9884) in font ntx-Regular-tlf-t1!
+Missing character: There is no 期 ("671F) in font ntx-Regular-tlf-t1!
+Missing character: There is no 收 ("6536) in font ntx-Regular-tlf-t1!
+Missing character: There is no 益 ("76CA) in font ntx-Regular-tlf-t1!
+Missing character: There is no Ⅱ ("2161) in font ntx-Bold-tlf-t1!
+Missing character: There is no ， ("FF0C) in font ntx-Regular-tlf-t1!
+Missing character: There is no Ⅲ ("2162) in font ntx-Bold-tlf-t1!
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 502.
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 504.
+=======
 
 LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 551.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3804,6 +5275,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 504.
+ (d:/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 504.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.88pt on input line 507.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 507.
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 531.
+(d:/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) (./code/mcmthesis-matlab1.m) (./code/mcmthesis-sudoku.cpp
+Overfull \hbox (28.24974pt too wide) in paragraph at lines 1--2
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.24974pt too wide) in paragraph at lines 7--9
+[][][][][][][][][] 
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 15.
+
 
 LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 551.
 
@@ -3815,8 +5317,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12]
+<<<<<<< HEAD
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 25.
+ (d:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+))
+
+Package lastpage Warning: Rerun to get the references right on input line 539.
+
+
+AED: lastpage setting LastPage
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 539.
+=======
 
 LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 551.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3827,7 +5343,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13]
 
+<<<<<<< HEAD
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 539.
+=======
 LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 551.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3838,6 +5358,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14]
 
+<<<<<<< HEAD
+d:/meisai/ms/latex/ms论文.tex:539: LaTeX Error: \begin{align*} on input line 384 ended by \end{document}.
+=======
 LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 551.
 
 
@@ -3861,12 +5384,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [16]
 
 c:/Users/27771/Desktop/ms/latex/ms论文.tex:551: LaTeX Error: \begin{align*} on input line 398 ended by \end{document}.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< HEAD
+l.539 \end{document}
+=======
 l.551 \end{document}
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3886,6 +5414,25 @@ Package rerunfilecheck Warning: File `ms论文.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `ms论文.out':
 (rerunfilecheck)             Before: <no file>
+<<<<<<< HEAD
+(rerunfilecheck)             After:  41C2E5C7F90ECFA435BBB002C8234E99;6653.
+ )
+(\end occurred inside a group at level 2)
+
+### semi simple group (level 2) entered at line 384 (\begingroup)
+### semi simple group (level 1) entered at line 364 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 15316 strings out of 476919
+ 221915 string characters out of 5825425
+ 830157 words of memory out of 5000000
+ 34924 multiletter control sequences out of 15000+600000
+ 471421 words of font info for 123 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 86i,13n,99p,383b,2252s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on ms论文.pdf (16 pages).
+=======
 (rerunfilecheck)             After:  2E59515BB1E03F7433B12412198D9AD8;6923.
  )
 (\end occurred inside a group at level 3)
@@ -3905,3 +5452,4 @@ Here is how much of TeX's memory you used:
 
 Error 1 (driver return code) generating output;
 file ms论文.pdf may not be valid.
+>>>>>>> 080426f0bce84a7fc37962f847eec408e10abb85

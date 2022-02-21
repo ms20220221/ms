@@ -480,35 +480,42 @@ So there are a total of $2^3-2=6$ possible scenarios, to be specific: (solid cir
 
 \section{PartⅡ:Strategy Evaluation}
 \subsection{Set Perturbation Terms }%to determine optimal parameters }
+To demonstrate strategy optimality,firstly we add small perturbations to the buy and sell criteria.
 
-\subsection{Comparison Illustrates the Best Strategy}
+Then,we make minor adjustments to the buy and sell criteria, invoking the model (at this point the risk appetite indicator is 0.2) to calculate the final asset size,.
 
-
-
+Finally，observe the asset stability.We found In the range of -0.25 to 0.25, the final asset is basically smooth and there is no sudden drop, which shows that the model stability is relatively reliable.
+result shown in the figure.
+%插图
 
 \section{PartⅢ:Sensitivity Analysis}
 \subsection{Assuming Changes In Commission}
+We set the commission percentage of gold as a, the commission percentage of bitcoin as b, and the final asset as f USD. 
+After we kept adjusting the commission rate, we obtained the final assets under different commission rates, and the results are shown in the figure.%ref
 
-\subsection{Visualization Results}%Analysis ensitivity}
+\textbf{Final conclusion}
+Both the gold commission ratio a and the bitcoin commission ratio b will significantly affect the final asset f dollars when they changes.
+According to the analysis,f is essentially negatively correlated with b and f will be more sensitive to changes in b compared to a.
+Our model is not very good at grasping the price of gold because it changes so frequently.
+So it is not true that if the transaction cost is low, trader will benefit more.
+But for bitcoin, the changes are large and infrequent, the model is easier to make a correct judgment, and when the transaction cost is very low or even 0, we can arbitrage and protect the value easily.
 
-
-
+In summary, it can be seen that the model is sensitive to trading commissions.
 
 
 \section{Evaluate of the Model}
 \subsection{Strengths and weaknesses}
+
+
+
 
 \subsection{Sensitivity Analysis}
 
 
 
 
-\section{Conclusions}
-
 
 \section{A Memo}
-
-
 
 
 
