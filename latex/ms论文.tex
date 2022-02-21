@@ -49,7 +49,7 @@ keyword1; keyword2
 \section{Introduction}
 \subsection{Background}
 随着个人资产的累计，越来越多的人进入投资市场，为了在使现有资产保值或更有价值。
-但我们都知道，投资类产品常有很强的波动性，which means 它很难预测。
+但我们都知道，投资类产品常有很强的波动性，which means它很难预测。
 在众多投资产品中，黄金和比特币最受人关注。
 特别是比特币，自出现以来交易规模迅速扩张,但巨大的价格波动使其安全性和稳定性受到质疑。
 那么，在黄金和比特币投资热潮下，对普通交易者大幅度得利的投资组合很难实现。
@@ -59,10 +59,27 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 
 
 \subsection{Problem Statement}
+根据我们的理解，问题主要有以下几个要点：
+\begin{enumerate}    %有序列表 
+  \item 用原始数据建立一个模型，分析黄金和比特币价值走向
+  \item 基于时间序列模型，预测未来波动性资产的走势
+  \item 解决利用动态规划实现利益最大化问题
+  \item 确定交易者每天的交易决策以及交易行为，在有交易佣金的背景下
+  \item 证明我们提供了最优策略
+  \item Determine how sensitive the strategy is to transaction costs
+\end{enumerate}
 
 
 \subsection{Problem Analysis}
-为了更好的帮助交易者做出每日投资决策，我们
+
+明确问题后，我们的认为ARIMA模型在时间序列分析问题上较传统模型有很大优势，
+工作概览如下：
+首先，我们对原始数据进行了预处理，包括对数据的筛选、使数据可视化、挖掘出时间序列。
+这部分的工作可以极大提高建模的效率和分析波动性资产的效率。
+接着，由于在时间序列分析问题上ARIMA模型较传统模型的优势，在适用条件下我们选择ARIMA进行数据预测。
+以实现资产价值最大化为目的，制定了每日买卖、调仓及投资比例。
+然后，为了证明我们的策略最优，我们对制定的买卖、调仓和投资组合三个标准设置了扰动项，来确定的最佳参数。
+最后，我们枚举得到的一系列结果检验了对佣金的敏感性。
 
 
 
@@ -75,6 +92,9 @@ to date to determine each day if the trader should buy, hold, or sell their asse
 
 
 \section{Data Processing}
+对于我们要解决的数据分析问题，数据的平稳性是我们的模型的基础。
+通常来说，原始数据中的不完整和异常数据可能会大大影响我们问题的分析效率和结果准确性。
+故，对数据的分析、预先处理是必不可少。
 \subsection{Data Screening}
 
 \subsection{Data Visualization}
