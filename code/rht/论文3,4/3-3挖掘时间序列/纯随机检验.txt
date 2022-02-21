@@ -1,0 +1,31 @@
+Box-Ljung test
+
+data:  data_raw_gold
+X-squared = 7495.2, df = 6, p-value < 2.2e-16
+X-squared = 14834, df = 12, p-value < 2.2e-16
+X-squared = 22018, df = 18, p-value < 2.2e-16
+
+data:  data_raw_gold_diff1
+X-squared = 35.268, df = 6, p-value = 3.824e-06
+X-squared = 47.324, df = 12, p-value = 4.097e-06
+X-squared = 56.106, df = 18, p-value = 8.576e-06
+
+data:  data_raw_gold_diff2
+X-squared = 361.9, df = 6, p-value < 2.2e-16
+X-squared = 383.89, df = 12, p-value < 2.2e-16
+X-squared = 405.63, df = 18, p-value < 2.2e-16
+
+data:  data_raw_bchain
+X-squared = 10716, df = 6, p-value < 2.2e-16
+X-squared = 20966, df = 12, p-value < 2.2e-16
+X-squared = 30765, df = 18, p-value < 2.2e-16
+
+data:  data_raw_bchain_diff1
+X-squared = 21.896, df = 6, p-value = 0.001265
+X-squared = 63.942, df = 12, p-value = 4.275e-09
+X-squared = 71.685, df = 18, p-value = 2.339e-08
+
+data:  data_raw_bchain_diff2
+X-squared = 604.6, df = 6, p-value < 2.2e-16
+X-squared = 654.46, df = 12, p-value < 2.2e-16
+X-squared = 684.06, df = 18, p-value < 2.2e-16
