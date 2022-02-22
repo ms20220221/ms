@@ -7,7 +7,7 @@
 \usepackage{newtxtext}%\usepackage{palatino}
 \usepackage{lipsum}
 \usepackage{subfigure}
-\title{交易策略：时间序列模型与投资决策标准}
+\title{Trading Strategy:Time Series Model and Transaction Standard}
 \author{\small Huiteng Rong and Yuning Xiao and Jianhui Liu}
   }
 \date{\today}
@@ -34,6 +34,12 @@ We calculate the difference of raw data,depending on which to
   In response to question 3, we adjust the transaction commission ratio to obtain various
   the final asset data under different commission ratios,and visualize the changes of assests to 
   intuitively show the sensitivity of the strategy to the transaction cost.
+
+  Moreover,this paper introduces risk preference index when formulating investment standards, 
+  in order to analyze the differences of investment strategies and results among people
+   with different risk preferences. 
+   We also summarizes the advantages and disadvantages of the model, and pass on
+    our strategy, model and results to our respected traders in the form of MEMO.
 本文根据黄金与比特币历史价格数据，利用时间序列模型进行未来价格预测，并据此制定投资决策标准提供每日交易策略。
 针对问题一，利用时间序列模型ARIMA来预测数据。为了更好进行时间序列建模，
 我们将原始数据进行差分得到差分数据，对原始数据与差分数据进行平稳性检验、白噪声检验，
